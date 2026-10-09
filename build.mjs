@@ -241,7 +241,7 @@ write('/guides/', layout({ title: 'All guides', description: `Every ${config.nam
   }).join('') + '</div>' }));
 
 // Inline the hero so its background blob can follow light and dark mode.
-const heroArt = readFileSync('public/img/hero.svg', 'utf8').replace('<svg ', '<svg class="hero-art" aria-hidden="true" ').replace('fill="#fbe9dc"', 'style="fill:var(--hero-blob)"');
+const heroArt = readFileSync('public/img/hero.svg', 'utf8').replace(' width="480" height="400"', '').replace('<svg ', '<svg class="hero-art" aria-hidden="true" focusable="false" ').replace('fill="#fbe9dc"', 'style="fill:var(--hero-blob)"');
 const SHORT = { 'how-to-treat-cat-fleas': 'Fleas', 'how-to-treat-cat-diarrhea': 'Diarrhea', 'how-to-treat-cat-hairballs': 'Hairballs',
   'how-to-treat-cat-constipation': 'Constipation', 'best-toys-for-indoor-cats': 'Best toys', 'how-to-treat-cat-ear-mites': 'Ear mites' };
 const popular = Object.entries(SHORT).map(([slug, short]) => ({ ...guides.find(g => g.slug === slug), short })).filter(g => g.slug).slice(0, 5);
