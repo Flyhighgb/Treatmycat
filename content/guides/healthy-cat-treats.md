@@ -15,9 +15,9 @@ Your vet can tell you your own cat's ideal calories. Overweight cats are much mo
 
 ## Good treat choices
 
-- **Freeze-dried meat or fish.** Often a single ingredient, high in protein, and most cats love them.
-- **Lickable treats (puree tubes).** Good for bonding, hiding tablets and adding water to the diet.
-- **Dental treats.** Some are accepted by the Veterinary Oral Health Council (VOHC) for reducing tartar. Look for the VOHC seal.
+- **Freeze-dried meat or fish.** Often a single ingredient, high in protein, and most cats love them. [See freeze-dried treats](amazon:freeze dried cat treats single ingredient).
+- **Lickable treats (puree tubes).** Good for bonding, hiding tablets and adding water to the diet. [See lickable treats](amazon:lickable cat treats puree).
+- **Dental treats.** Some are accepted by the Veterinary Oral Health Council (VOHC) for reducing tartar. Look for the VOHC seal. [See VOHC-accepted dental treats](amazon:VOHC cat dental treats).
 - **Plain cooked chicken, turkey or white fish.** Unseasoned, with no skin or bones, in small amounts.
 - **A few pieces of your cat's regular kibble**, kept aside from the daily ration. Many cats are just as happy with this.
 
@@ -48,7 +48,7 @@ Also keep **lilies** well away from cats. They aren't a food, but every part of 
 
 - **Training:** cats can learn to come when called, sit, high-five and walk into their carrier. Use tiny pieces and short sessions.
 - **Medicine time:** hide a tablet in a lickable treat or a pill pocket.
-- **Puzzle feeders:** put treats or kibble in a puzzle toy to make your cat work for them. Good for indoor cats and weight control.
+- **Puzzle feeders:** put treats or kibble in a [puzzle toy](amazon:cat puzzle feeder) to make your cat work for them. Good for indoor cats and weight control.
 - **Calmer vet visits:** treats in the carrier at home help it stop meaning "vet".
 - **Grooming:** a treat after a short brushing session helps cats accept it, which also cuts down on [hairballs](/guides/how-to-treat-cat-hairballs/).
 

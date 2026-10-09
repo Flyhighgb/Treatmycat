@@ -19,13 +19,13 @@ Scratching isn't bad behavior. Cats scratch to keep their claws in shape, to str
 
 ## Types of scratcher
 
-| Type | Best for | Good to know |
-|---|---|---|
-| Tall sisal post | Most cats, vertical scratchers | Choose 30 inches or taller with a heavy base. |
-| Cat tree with scratching posts | Climbers, multi-cat homes, indoor cats | Adds height, hiding spots and perches as well as scratching. Check it's stable. |
-| Flat or angled cardboard scratcher | Horizontal scratchers, older cats | Cheap, and many cats love them. Replace them when they're worn down. |
-| Wall- or door-mounted scratcher | Small homes | Saves floor space and can't tip over. |
-| Scratching mat or couch-corner guard | Protecting a favorite spot | Put it right where your cat already scratches. |
+| Type | Best for | Good to know | Shop |
+|---|---|---|---|
+| Tall sisal post | Most cats, vertical scratchers | Choose 30 inches or taller with a heavy base. | [Tall sisal posts](amazon:tall sisal cat scratching post 32 inch) |
+| Cat tree with scratching posts | Climbers, multi-cat homes, indoor cats | Adds height, hiding spots and perches as well as scratching. Check it's stable. | [Cat trees](amazon:cat tree sisal scratching posts) |
+| Flat or angled cardboard scratcher | Horizontal scratchers, older cats | Cheap, and many cats love them. Replace them when they're worn down. | [Cardboard scratchers](amazon:cardboard cat scratcher) |
+| Wall- or door-mounted scratcher | Small homes | Saves floor space and can't tip over. | [Wall scratchers](amazon:wall mounted cat scratcher) |
+| Scratching mat or couch-corner guard | Protecting a favorite spot | Put it right where your cat already scratches. | [Mats and guards](amazon:cat scratching mat couch protector) |
 
 Most homes do best with **more than one** scratcher: at least one in each main room your cat uses, and one for every cat in multi-cat homes.
 

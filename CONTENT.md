@@ -39,12 +39,14 @@ Buying guides help someone choose a product: "best X for cats" or "how to choose
 
 Rules for buying guides:
 - **Never claim we tested or own a product**, and never invent reviews, star ratings, prices or "editor's choice" awards.
-- Until a program in `AFFILIATES.md` is active, describe product *types* and features, not specific brands. Once one is active, add specific products under each type with affiliate links, only where they genuinely fit.
+- Describe product *types* and features rather than specific brands. Add a "Shop" column to the types table with an Amazon link for each type (see below).
 
 ## Affiliate links
 - Only add links from programs listed in `AFFILIATES.md`, and only where a product genuinely fits the advice.
 - Never put a product recommendation above a "see a vet" warning.
-- Mark links with `rel="sponsored nofollow"` (use HTML `<a>` tags for these).
+- **Amazon (active):** write `[See water fountains](amazon:cat water fountain)`. The build turns it into an amazon.com search link with our tag, marks it `rel="sponsored nofollow"`, and adds the affiliate notice at the top of the guide. Use specific, sensible search words. Don't hand-write Amazon URLs.
+- In health guides, link only everyday care products (combs, fountains, litter boxes, treats), never medicines, and only in the home care steps, not in the "see a vet" sections.
+- 1 to 3 Amazon links in a health guide, one per product type in a buying guide.
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):

@@ -18,15 +18,15 @@ A good toy lets your cat do what it would do in the wild: stalk, chase, pounce a
 
 ## The types of toy worth buying
 
-| Type | Best for | Good to know |
-|---|---|---|
-| Wand (teaser) toys with feathers or fabric on a string | Interactive play, burning energy, bonding | The single best toy for most cats. Put it away after play so the string can't be chewed. |
-| Small balls and toy mice | Solo play, batting around | Cheap, so buy several and rotate them. |
-| Kicker toys (long and plush) | Grabbing and kicking with back legs | Great for cats that play rough with hands. Many contain catnip. |
-| Puzzle feeders and treat balls | Mental exercise, slowing fast eaters | Use part of your cat's daily food so treats don't add calories. |
-| Tunnels | Hiding, ambushing, chasing | Especially good with two cats or alongside a wand toy. |
-| Catnip or silver vine toys | Short bursts of excitement | Around a third of cats don't react to catnip. Silver vine works for many of those. |
-| Electronic and motion toys | Play while you're busy | Useful extras, but they don't replace playing together. Choose ones that switch off on their own. |
+| Type | Best for | Good to know | Shop |
+|---|---|---|---|
+| Wand (teaser) toys with feathers or fabric on a string | Interactive play, burning energy, bonding | The single best toy for most cats. Put it away after play so the string can't be chewed. | [Wand toys](amazon:cat wand toy feather) |
+| Small balls and toy mice | Solo play, batting around | Cheap, so buy several and rotate them. | [Balls and mice](amazon:cat toy mice balls variety pack) |
+| Kicker toys (long and plush) | Grabbing and kicking with back legs | Great for cats that play rough with hands. Many contain catnip. | [Kicker toys](amazon:cat kicker toy) |
+| Puzzle feeders and treat balls | Mental exercise, slowing fast eaters | Use part of your cat's daily food so treats don't add calories. | [Puzzle feeders](amazon:cat puzzle feeder) |
+| Tunnels | Hiding, ambushing, chasing | Especially good with two cats or alongside a wand toy. | [Tunnels](amazon:cat tunnel) |
+| Catnip or silver vine toys | Short bursts of excitement | Around a third of cats don't react to catnip. Silver vine works for many of those. | [Silver vine toys](amazon:silver vine cat toy) |
+| Electronic and motion toys | Play while you're busy | Useful extras, but they don't replace playing together. Choose ones that switch off on their own. | [Motion toys](amazon:automatic interactive cat toy) |
 
 ## Toys that aren't worth it (or aren't safe)
 

@@ -28,7 +28,17 @@ function parse(file) {
     const i = line.indexOf(':');
     if (i > 0) meta[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^"(.*)"$/, '$1');
   }
-  return { ...meta, slug: basename(file, '.md'), faq: faqs(m[2]), html: headingIds(marked.parse(m[2])) };
+  const body = amazonLinks(m[2]);
+  return { ...meta, slug: basename(file, '.md'), faq: faqs(body), affiliate: body.includes('rel="sponsored'), html: headingIds(marked.parse(body)) };
+}
+
+// [Shop sisal scratching posts](amazon:sisal scratching post) -> an Amazon search link with our Associates tag.
+function amazonLinks(md) {
+  return md.replace(/\[([^\]]+)\]\(amazon:([^)]+)\)/g, (_, text, query) => {
+    if (!config.amazonTag) return text;
+    const url = `https://www.amazon.com/s?k=${encodeURIComponent(query.trim()).replace(/%20/g, '+')}&amp;tag=${encodeURIComponent(config.amazonTag)}`;
+    return `<a href="${url}" rel="sponsored nofollow noopener" target="_blank">${text}</a>`;
+  });
 }
 
 // Give h2/h3 headings ids so sections can be linked to, e.g. /about/#how-we-write-our-guides.
@@ -153,6 +163,7 @@ for (const g of guides) {
 <p class="meta">By the ${esc(config.name)} editorial team · Last reviewed ${esc(longDate(reviewed))} · <a href="/about/#how-we-write-our-guides">How we write our guides</a></p>
 <img class="hero-img" src="${imgFor(g.category)}" alt="" width="640" height="360">
 <aside class="vet-note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</aside>
+${g.affiliate ? `<p class="disclosure">This guide contains affiliate links. If you buy through them we may earn a small commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/affiliate-disclosure/">Learn more</a>.</p>` : ''}
 ${g.html}
 </article>
 ${more.length ? `<section><h2>Related guides</h2><ul class="cards">${more.map(card).join('')}</ul></section>` : ''}`
