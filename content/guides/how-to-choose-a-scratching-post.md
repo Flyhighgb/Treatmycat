@@ -4,6 +4,8 @@ description: What to look for in a scratching post or cat tree, where to put it,
 category: Toys and gear
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1545249390-6bdfa286032f
+imageAlt: A gray cat leaning on a scratching post
 ---
 Scratching isn't bad behavior. Cats scratch to keep their claws in shape, to stretch, and to leave scent and visual marks that say "this is home". You can't stop a cat scratching, but you can choose where it happens. The trick is a post your cat prefers to your furniture, and that comes down to a few simple things: height, sturdiness, material and location.
 

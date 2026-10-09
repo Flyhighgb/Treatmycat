@@ -4,6 +4,8 @@ description: Which cat toys are worth buying, which are a waste of money, the to
 category: Toys and gear
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1604372974210-07d4d7d7d9a2
+imageAlt: An orange tabby cat playing with a ball
 ---
 Indoor cats need to hunt. Not real prey, but the chase, pounce and "kill" that a hunt gives them. Without it, many become bored, overweight or stressed, and some start scratching furniture, waking you at night or over-grooming. The right toys, used the right way, fix a lot of that. The good news is that the toys cats love most are usually cheap.
 

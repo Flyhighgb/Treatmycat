@@ -23,6 +23,7 @@ A worried cat owner who just searched "how to treat my cat's ___". Answer their 
 - Written for **US readers**: American spelling (diarrhea, behavior, fiber, color), US units first with metric in brackets (9 lb (4 kg), 140°F (60°C)), US brand examples (Tylenol, Pepto-Bismol), "litter box", "vet". For poisoning, point to the ASPCA Animal Poison Control Center, (888) 426-4435.
 - Plain language, short paragraphs. **800–1,300 words**, not counting the sources list.
 - Front matter: `date` and `reviewed` are both today's date for a new guide. When you meaningfully update an old guide, set `reviewed` to today.
+- Photo: add `image:` (an Unsplash photo id such as `photo-1511275539165-cc46b1ee89bf`) and `imageAlt:` (a short, plain description of the photo) to the front matter. Find one with WebFetch on `https://unsplash.com/s/photos/<words>?license=free`, pick a free photo (images.unsplash.com, never plus.unsplash.com) whose description matches the guide, and use a photo no other guide uses. If no fitting photo turns up, leave both out and the topic illustration is shown instead.
 - No filler intros, no "In conclusion", no keyword stuffing.
 - One topic per guide. Check `content/guides/` first and don't duplicate an existing guide; update it instead.
 - Link to 1–3 related guides on the site with relative links like `/guides/how-to-treat-cat-fleas/`.
