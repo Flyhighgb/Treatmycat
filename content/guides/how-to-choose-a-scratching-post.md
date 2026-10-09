@@ -29,6 +29,16 @@ Scratching isn't bad behavior. Cats scratch to keep their claws in shape, to str
 | Wall- or door-mounted scratcher | Small homes | Saves floor space and can't tip over. | [Wall scratchers](amazon:wall mounted cat scratcher) |
 | Scratching mat or couch-corner guard | Protecting a favorite spot | Put it right where your cat already scratches. | [Mats and guards](amazon:cat scratching mat couch protector) |
 
+## Popular picks
+
+These are popular, widely recommended examples of each type, picked from well-known brands that appear again and again in scratching post round-ups. We haven't tested them ourselves, so check the reviews and sizes on Amazon before you buy.
+
+- **SmartCat Ultimate 32-Inch Scratching Post.** A tall sisal post with a heavy base, often named the best scratching post for most cats. [Check price on Amazon](amazon:SmartCat Ultimate Scratching Post 32 inch)
+- **MidWest Feline Nuvo Grand Forte.** A taller sisal post, around 41 inches, for big cats that like a full stretch. [Check price on Amazon](amazon:MidWest Feline Nuvo Grand Forte scratching post)
+- **PetFusion Ultimate Cat Scratcher Lounge.** A curved cardboard scratcher that doubles as a bed, for cats that scratch flat. [Check price on Amazon](amazon:PetFusion Ultimate Cat Scratcher Lounge)
+- **K&H EZ Mount Window Scratcher.** A cardboard scratcher that fixes to a window, so it takes no floor space. [Check price on Amazon](amazon:K&H EZ Mount Window Scratcher)
+- **FUKUMARU Cat Scratcher Mat.** A sisal mat you can lay down or wrap around a spot your cat already scratches. [Check price on Amazon](amazon:FUKUMARU cat scratcher mat sisal)
+
 Most homes do best with **more than one** scratcher: at least one in each main room your cat uses, and one for every cat in multi-cat homes.
 
 ## Where to put it

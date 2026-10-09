@@ -41,6 +41,7 @@ Buying guides help someone choose a product: "best X for cats" or "how to choose
 Rules for buying guides:
 - **Never claim we tested or own a product**, and never invent reviews, star ratings, prices or "editor's choice" awards.
 - Describe product *types* and features rather than specific brands. Add a "Shop" column to the types table with an Amazon link for each type (see below).
+- After the types table, add a `## Popular picks` section naming 3 to 6 **specific products** (one per type), as bullets: `- **Exact product name.** One plain sentence on what it is and who it suits. [Check price on Amazon](amazon:exact product name)`. Only pick long-established products from well-known brands that you find recommended by several independent review sites (search the web to check); never invent a product. Open the section with: "These are popular, widely recommended examples of each type... We haven't tested them ourselves, so check the reviews and sizes on Amazon before you buy." Add the same products to `content/pages/best-cat-products.md` as `[Short name](amazon:exact product name) [More <type>](amazon:type search)` in the Popular pick column.
 - After publishing a buying guide, add a short section for it to `content/pages/best-cat-products.md` (a sentence, a link to the guide, and a Type / Best for / Shop table with its top 3 to 6 types), so the Best products page stays complete.
 
 ## Affiliate links
@@ -48,7 +49,7 @@ Rules for buying guides:
 - Never put a product recommendation above a "see a vet" warning.
 - **Amazon (active):** write `[See water fountains](amazon:cat water fountain)`. The build turns it into an amazon.com search link with our tag, marks it `rel="sponsored nofollow"`, and adds the affiliate notice at the top of the guide. Use specific, sensible search words. Don't hand-write Amazon URLs.
 - In health guides, link only everyday care products (combs, fountains, litter boxes, treats), never medicines, and only in the home care steps, not in the "see a vet" sections.
-- 1 to 3 Amazon links in a health guide, one per product type in a buying guide.
+- 1 to 3 Amazon links in a health guide. In a buying guide, one link per type in the table plus one per named product in Popular picks.
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
