@@ -1,10 +1,13 @@
 // Static site builder: Markdown in content/ -> HTML in dist/.
 import { readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, cpSync, existsSync } from 'node:fs';
 import { join, basename } from 'node:path';
+import { createHash } from 'node:crypto';
 import { marked } from 'marked';
 
 const config = JSON.parse(readFileSync('site.config.json', 'utf8'));
 const OUT = 'dist';
+// Browsers keep style.css for a day (see public/_headers), so its URL changes whenever it does.
+const cssVersion = createHash('sha1').update(readFileSync('public/style.css')).digest('hex').slice(0, 8);
 
 // Topics shown on the homepage. Each has an illustration in public/img/<slug>.svg
 // and a share image in public/og/<slug>.png (made by `npm run og`).
@@ -110,7 +113,7 @@ function layout({ title, description, path, body, schema, image = '/og/default.p
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=${cssVersion}">
 ${schemas.map(s => `<script type="application/ld+json">${JSON.stringify(s)}</script>`).join('\n')}
 ${ads}
 </head>
