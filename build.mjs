@@ -104,7 +104,7 @@ function layout({ title, description, path, body, schema, image = '/og/default.p
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${config.url}${path}">
 <meta property="og:type" content="${path.startsWith('/guides/') && path !== '/guides/' ? 'article' : 'website'}">
-<meta property="og:image" content="${config.url}${image}">
+<meta property="og:image" content="${esc(image.startsWith('https://') ? image : config.url + image)}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -121,7 +121,7 @@ ${ads}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> ${esc(config.name)}</a>
-  <nav aria-label="Main"><a href="/guides/">All guides</a><a class="hide-sm" href="/topics/toys-and-gear/">Toys &amp; gear</a><a href="/about/">About</a></nav>
+  <nav aria-label="Main"><a href="/guides/">All guides</a><a class="hide-sm" href="/topics/toys-and-gear/">Toys &amp; gear</a><a href="/best-cat-products/">Best products</a><a class="hide-sm" href="/about/">About</a></nav>
 </div></header>
 <main id="main">
 ${body}
@@ -130,7 +130,7 @@ ${body}
   <div class="footer-grid">
     <div><a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> ${esc(config.name)}</a>
       <p>${esc(config.tagline)}</p></div>
-    <div><h2>Topics</h2><ul>${TOPICS.filter(t => usedNames.has(t.name)).map(t => `<li><a href="/topics/${t.slug}/">${esc(t.name)}</a></li>`).join('')}</ul></div>
+    <div><h2>Topics</h2><ul>${TOPICS.filter(t => usedNames.has(t.name)).map(t => `<li><a href="/topics/${t.slug}/">${esc(t.name)}</a></li>`).join('')}<li><a href="/best-cat-products/">Best cat products</a></li></ul></div>
     <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
   </div>
   <p class="footer-note">Information on this site is general guidance, not a substitute for a vet. If your cat is unwell, contact your vet. For a suspected poisoning, call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.</p>
@@ -144,15 +144,17 @@ ${analytics}
 // Guide photos are free Unsplash photos (unsplash.com/license), served from Unsplash's image CDN.
 // `image:` in a guide's front matter is the photo id, e.g. photo-1511275539165-cc46b1ee89bf.
 const HERO_PHOTO = { id: 'photo-1507095875722-a3d31d7e85fa', alt: 'A tabby cat close up' };
-const photoUrl = (id, w, h) => `https://images.unsplash.com/${id}?auto=format&amp;fit=crop&amp;w=${w}${h ? `&amp;h=${h}` : ''}&amp;q=70`;
+const photoUrl = (id, w, h) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}${h ? `&h=${h}` : ''}&q=70`;
 function photo(id, alt, { w, h, sizes, eager = false, cls = '' }) {
   const ratio = h / w;
   const srcset = [w / 2, w, w * 1.5].map(x => `${photoUrl(id, Math.round(x), Math.round(x * ratio))} ${Math.round(x)}w`).join(', ');
-  return `<img class="${cls}" src="${photoUrl(id, w, h)}" srcset="${srcset}" sizes="${sizes}" alt="${esc(alt || '')}" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
+  return `<img class="${cls}" src="${esc(photoUrl(id, w, h))}" srcset="${esc(srcset)}" sizes="${sizes}" alt="${esc(alt || '')}" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
 }
 const thumbFor = g => g.image
   ? `<span class="thumb photo">${photo(g.image, '', { w: 640, h: 400, sizes: '(max-width: 640px) 100vw, 360px' })}</span>`
   : `<span class="thumb"><img src="${iconFor(g.category)}" alt="" width="72" height="72" loading="lazy"></span>`;
+
+const disclosure = `<p class="disclosure">This page contains affiliate links. If you buy through them we may earn a small commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/affiliate-disclosure/">Learn more</a>.</p>`;
 
 function card(g) {
   return `<li class="card" style="--tint:${tintFor(g.category)}"><a href="/guides/${g.slug}/">
@@ -200,12 +202,14 @@ for (const g of guides) {
   const topic = topicFor(g.category);
   const related = guides.filter(o => o.slug !== g.slug && o.category === g.category).slice(0, 3);
   const more = related.length ? related : guides.filter(o => o.slug !== g.slug).slice(0, 3);
+  // Shared links show the guide's photo, cropped to the 1200x630 share size.
+  const share = g.image ? photoUrl(g.image, 1200, 630) : ogFor(g.category);
   const updated = g.updated || g.date;
   const reviewed = g.reviewed || updated;
   lastmod[path] = [updated, reviewed].sort().pop();
   const schema = [
     { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description,
-      image: `${config.url}${ogFor(g.category)}`, mainEntityOfPage: `${config.url}${path}`,
+      image: share.startsWith('https://') ? share : `${config.url}${share}`, mainEntityOfPage: `${config.url}${path}`,
       datePublished: g.date, dateModified: lastmod[path],
       author: { ...org, name: `${config.name} editorial team` }, publisher: org },
     crumbSchema([['Guides', '/guides/'], ...(topic ? [[topic.name, `/topics/${topic.slug}/`]] : []), [g.title, path]]),
@@ -213,7 +217,7 @@ for (const g of guides) {
   if (g.faq.length) schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: g.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
   write(path, layout({
-    title: g.title, description: g.description, path, schema, image: ogFor(g.category),
+    title: g.title, description: g.description, path, schema, image: share,
     body: `<header class="page-head" style="--tint:${tintFor(g.category)}"><div class="wrap page-head-grid">
 <div>
 <p class="crumbs"><a href="/guides/">Guides</a>${topic ? ` › <a href="/topics/${topic.slug}/">${esc(topic.name)}</a>` : g.category ? ` › ${esc(g.category)}` : ''}</p>
@@ -227,7 +231,7 @@ ${g.image ? `<figure class="head-photo">${photo(g.image, g.imageAlt, { w: 720, h
 <div class="wrap article-grid">
 <article class="post">
 ${g.category === 'Toys and gear' ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</div>`}
-${g.affiliate ? `<p class="disclosure">This guide contains affiliate links. If you buy through them we may earn a small commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/affiliate-disclosure/">Learn more</a>.</p>` : ''}
+${g.affiliate ? disclosure : ''}
 ${g.toc.length > 2 ? `<details class="toc toc-inline"><summary>In this guide</summary><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></details>` : ''}
 ${g.html}
 <p class="trust-line">Written from published veterinary guidance. <a href="/about/#how-we-write-our-guides">How we write our guides</a>.</p>
@@ -240,7 +244,7 @@ ${more.length ? `<section class="band"><div class="wrap"><h2>Related guides</h2>
 
 for (const p of pages) {
   write(`/${p.slug}/`, layout({ title: p.title, description: p.description, path: `/${p.slug}/`,
-    body: `<header class="page-head"><div class="wrap"><h1>${esc(p.title)}</h1></div></header><div class="wrap narrow"><article class="post">${p.html}</article></div>` }));
+    body: `<header class="page-head"><div class="wrap"><h1>${esc(p.title)}</h1>${p.slug === 'best-cat-products' ? `<p class="lead">${esc(p.description)}</p>` : ''}</div></header><div class="wrap narrow"><article class="post">${p.affiliate ? disclosure : ''}${p.html}</article></div>` }));
 }
 
 const used = TOPICS.filter(t => guides.some(g => g.category === t.name));

@@ -41,6 +41,7 @@ Buying guides help someone choose a product: "best X for cats" or "how to choose
 Rules for buying guides:
 - **Never claim we tested or own a product**, and never invent reviews, star ratings, prices or "editor's choice" awards.
 - Describe product *types* and features rather than specific brands. Add a "Shop" column to the types table with an Amazon link for each type (see below).
+- After publishing a buying guide, add a short section for it to `content/pages/best-cat-products.md` (a sentence, a link to the guide, and a Type / Best for / Shop table with its top 3 to 6 types), so the Best products page stays complete.
 
 ## Affiliate links
 - Only add links from programs listed in `AFFILIATES.md`, and only where a product genuinely fits the advice.
