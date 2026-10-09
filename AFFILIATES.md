@@ -1,10 +1,10 @@
-# Affiliate programmes
+# Affiliate programs
 
-Only add links from programmes listed here as **active**.
+Only add links from programs listed here as **active**. The site targets US readers, so join the US versions.
 
-| Programme | Status | Link format / tag |
+| Program | Status | Link format / tag |
 |---|---|---|
-| Amazon Associates | not joined | |
-| Chewy | not joined | |
+| Amazon Associates (US) | not joined | |
+| Chewy (US only) | not joined | |
 | Pet insurance (e.g. Lemonade, Embrace) | not joined | |
 | Vet telehealth (e.g. Vetster, Pawp) | not joined | |
