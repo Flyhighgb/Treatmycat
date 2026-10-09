@@ -15,6 +15,7 @@ const TOPICS = [
   { name: 'Behavior', slug: 'behavior', blurb: 'Stress, scratching, over-grooming and litter box problems.' },
   { name: 'Health conditions', slug: 'health-conditions', blurb: 'Urinary, kidney, thyroid and other ongoing problems.' },
   { name: 'Care and grooming', slug: 'care-and-grooming', blurb: 'Brushing, mats, giving tablets and everyday care.' },
+  { name: 'Toys and gear', slug: 'toys-and-gear', blurb: 'The best toys, scratching posts, beds and gear, and how to choose.' },
 ];
 const topicFor = name => TOPICS.find(t => t.name === name);
 
