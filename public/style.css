@@ -232,3 +232,4 @@ h2 a:hover { color: var(--accent); }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 @media (hover: none) { .card a:hover, .topic a:hover, .featured:hover { transform: none; } }
+.narrow > .post { padding: 28px 0 48px; }
