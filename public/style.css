@@ -252,3 +252,15 @@ h2 a:hover { color: var(--accent); }
 .picks .button:hover { background: var(--accent-strong); color: #fff; }
 @media (prefers-color-scheme: dark) { .picks .button, .picks .button:hover { color: #1a1614; } }
 .wrap > .section { padding: 24px 0; }
+.post td a[rel~="sponsored"] ~ a[rel~="sponsored"] { display: block; width: fit-content; margin-top: 6px; padding: 0; background: none; color: var(--accent);
+  font-weight: 600; font-size: .85rem; text-decoration: underline; white-space: normal; }
+.post td a[rel~="sponsored"] ~ a[rel~="sponsored"]::after { content: none; }
+.post td a[rel~="sponsored"] ~ a[rel~="sponsored"]:hover { background: none; color: var(--accent-strong); }
+@media (prefers-color-scheme: dark) { .post td a[rel~="sponsored"] ~ a[rel~="sponsored"] { color: var(--accent); } }
+#popular-picks + p + ul { list-style: none; padding: 0; display: grid; gap: 10px; }
+#popular-picks + p + ul li { margin: 0; padding: 14px 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow); }
+#popular-picks + p + ul a[rel~="sponsored"] { display: table; margin-top: 10px; padding: 6px 12px; border-radius: 999px; background: var(--accent); color: #fff;
+  font-weight: 700; font-size: .85rem; text-decoration: none; }
+#popular-picks + p + ul a[rel~="sponsored"]::after { content: " →"; }
+#popular-picks + p + ul a[rel~="sponsored"]:hover { background: var(--accent-strong); }
+@media (prefers-color-scheme: dark) { #popular-picks + p + ul a[rel~="sponsored"] { color: #1a1614; } }

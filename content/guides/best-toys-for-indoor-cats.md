@@ -30,6 +30,17 @@ A good toy lets your cat do what it would do in the wild: stalk, chase, pounce a
 | Catnip or silver vine toys | Short bursts of excitement | Around a third of cats don't react to catnip. Silver vine works for many of those. | [Silver vine toys](amazon:silver vine cat toy) |
 | Electronic and motion toys | Play while you're busy | Useful extras, but they don't replace playing together. Choose ones that switch off on their own. | [Motion toys](amazon:automatic interactive cat toy) |
 
+## Popular picks
+
+These are popular, widely recommended examples of each type, picked from well-known brands that appear again and again in cat toy and gear round-ups. We haven't tested them ourselves, so check the reviews and sizes on Amazon before you buy.
+
+- **Cat Dancer Rainbow Cat Charmer.** A simple wand with a long fabric ribbon that most cats can't resist chasing. Put it away after play. [Check price on Amazon](amazon:Cat Dancer Rainbow Cat Charmer)
+- **SmartyKat Skitter Critters.** A multipack of small catnip mice, so you can rotate them and not worry when one disappears under the couch. [Check price on Amazon](amazon:SmartyKat Skitter Critters catnip mice)
+- **Yeowww! Catnip Banana.** A long kicker toy filled with catnip, good for cats that love to grab and bunny-kick. [Check price on Amazon](amazon:Yeowww Catnip Banana)
+- **Catit Senses Digger.** A puzzle feeder with clear tubes your cat fishes kibble or treats out of with a paw. [Check price on Amazon](amazon:Catit Senses Digger)
+- **Potaroma Silvervine Chew Toys.** Silver vine toys, worth trying if your cat ignores catnip. [Check price on Amazon](amazon:Potaroma silvervine cat chew toys)
+- **SmartyKat Hot Pursuit.** An electronic toy that moves a wand under a cover, for play while you're busy. [Check price on Amazon](amazon:SmartyKat Hot Pursuit cat toy)
+
 ## Toys that aren't worth it (or aren't safe)
 
 - **Laser pointers on their own.** Cats can never catch the dot, which can leave them frustrated. If you use one, finish by moving the dot onto a toy they can catch, or toss them a treat.
