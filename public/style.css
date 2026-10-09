@@ -243,3 +243,12 @@ h2 a:hover { color: var(--accent); }
   nav[aria-label="Main"] { gap: 0; }
   nav[aria-label="Main"] a { padding: 6px 6px; font-size: .86rem; }
 }
+.section > h2:first-child { margin-top: 0; }
+.picks { display: flex; align-items: center; justify-content: space-between; gap: 16px 24px; flex-wrap: wrap; margin: 32px 0 0; padding: 20px 22px;
+  background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--teal-soft); border-radius: 16px; box-shadow: var(--shadow); }
+.picks strong { display: block; font-family: var(--display); font-size: 1.15rem; }
+.picks span { color: var(--muted); font-size: .95rem; }
+.picks .button { white-space: nowrap; }
+.picks .button:hover { background: var(--accent-strong); color: #fff; }
+@media (prefers-color-scheme: dark) { .picks .button, .picks .button:hover { color: #1a1614; } }
+.wrap > .section { padding: 24px 0; }

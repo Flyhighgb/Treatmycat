@@ -162,6 +162,9 @@ const thumbFor = g => g.image
 
 const disclosure = `<p class="disclosure">This page contains affiliate links. If you buy through them we may earn a small commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/affiliate-disclosure/">Learn more</a>.</p>`;
 
+// Product and food guides aren't about a sick cat, so they skip the "see a vet" banner.
+const NO_VET_NOTE = ['Toys and gear', 'Food and treats'];
+
 function card(g) {
   return `<li class="card" style="--tint:${tintFor(g.category)}"><a href="/guides/${g.slug}/">
 ${thumbFor(g)}
@@ -236,10 +239,11 @@ ${g.image ? `<figure class="head-photo">${photo(g.image, g.imageAlt, { w: 720, h
 </div></header>
 <div class="wrap article-grid">
 <article class="post">
-${g.category === 'Toys and gear' ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</div>`}
+${NO_VET_NOTE.includes(g.category) ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</div>`}
 ${g.affiliate ? disclosure : ''}
 ${g.toc.length > 2 ? `<details class="toc toc-inline"><summary>In this guide</summary><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></details>` : ''}
 ${g.html}
+<aside class="picks"><div><strong>Looking for the right gear?</strong><span>See our top picks of toys, scratching posts, treats and grooming tools.</span></div><a class="button" href="/best-cat-products/">See our product picks</a></aside>
 <p class="trust-line">Written from published veterinary guidance. <a href="/about/#how-we-write-our-guides">How we write our guides</a>.</p>
 </article>
 ${g.toc.length > 2 ? `<aside class="sidebar"><nav class="toc" aria-label="In this guide"><p class="toc-title">In this guide</p><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></nav></aside>` : ''}
