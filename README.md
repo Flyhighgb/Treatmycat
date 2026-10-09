@@ -36,7 +36,7 @@ Add `draft: true` to keep it unpublished. Read `CONTENT.md` before writing.
 
 ## Topics and images
 
-Topics are listed in `TOPICS` at the top of `build.mjs`. Each has an illustration in `public/img/<slug>.svg` (shown on cards and guides) and a share image in `public/og/<slug>.png` (shown when a link is shared). To add a topic, add it to `TOPICS`, draw its SVG, then run `npm run og` (needs Playwright) to make the share image.
+Topics are listed in `TOPICS` at the top of `build.mjs`. Each has a colour (`tint`), an illustration in `public/img/<slug>.svg`, an icon in `public/img/icons/<slug>.svg` (shown on tiles, cards and guide headers) and a share image in `public/og/<slug>.png` (shown when a link is shared). To add a topic, add it to `TOPICS`, add its drawing to `scripts/illustrations.mjs` and run `npm run art`, then run `npm run og` (needs Playwright) to make the share image.
 
 ## Settings
 
