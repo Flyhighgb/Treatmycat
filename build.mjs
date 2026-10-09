@@ -81,7 +81,8 @@ const tintFor = category => topicFor(category)?.tint || '#c2571a';
 const ogFor = category => existsSync(`public/og/${topicFor(category)?.slug}.png`) ? `/og/${topicFor(category).slug}.png` : '/og/default.png';
 
 function layout({ title, description, path, body, schema, image = '/og/default.png' }) {
-  const full = path === '/' ? `${config.name} | ${config.tagline}` : `${title} | ${config.name}`;
+  // Google shows about 60 characters of a title, so long titles drop the site name.
+  const full = path === '/' ? `${config.name}: ${config.tagline.replace(/\.$/, '')}` : title.length > 48 ? title : `${title} | ${config.name}`;
   const analytics = config.analytics
     ? `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${esc(config.analytics)}"}'></script>` : '';
   const ads = config.adsenseClient
@@ -105,6 +106,7 @@ function layout({ title, description, path, body, schema, image = '/og/default.p
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
@@ -201,7 +203,7 @@ for (const g of guides) {
 </div></header>
 <div class="wrap article-grid">
 <article class="post">
-<aside class="vet-note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</aside>
+${g.category === 'Toys and gear' ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</div>`}
 ${g.affiliate ? `<p class="disclosure">This guide contains affiliate links. If you buy through them we may earn a small commission, at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. <a href="/affiliate-disclosure/">Learn more</a>.</p>` : ''}
 ${g.toc.length > 2 ? `<details class="toc toc-inline"><summary>In this guide</summary><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></details>` : ''}
 ${g.html}
@@ -229,10 +231,10 @@ for (const t of used) {
     schema: crumbSchema([['Guides', '/guides/'], [t.name, `/topics/${t.slug}/`]]),
     body: `<header class="page-head" style="--tint:${t.tint}"><div class="wrap page-head-grid"><div><p class="crumbs"><a href="/guides/">Guides</a> › ${esc(t.name)}</p><h1>${esc(t.name)}</h1><p class="lead">${esc(t.blurb)}</p></div>
 <span class="head-icon"><img src="/img/icons/${t.slug}.svg" alt="" width="140" height="140"></span></div></header>
-<div class="wrap section"><ul class="cards">${list.map(card).join('')}</ul></div>` }));
+<div class="wrap section"><h2 class="visually-hidden">Guides</h2><ul class="cards">${list.map(card).join('')}</ul></div>` }));
 }
 
-write('/guides/', layout({ title: 'All guides', description: `Every ${config.name} guide, grouped by topic.`, path: '/guides/',
+write('/guides/', layout({ title: 'All guides', description: `Every ${config.name} guide to cat health, care, toys and gear, grouped by topic so you can find help fast.`, path: '/guides/',
   body: `<header class="page-head"><div class="wrap"><h1>All guides</h1><p class="lead">${guides.length} practical guides, grouped by topic.</p></div></header><div class="wrap">` + [...used.map(t => t.name), ...unknown].map(c => {
     const t = topicFor(c);
     return `<section class="section"><h2>${t ? `<a href="/topics/${t.slug}/">${esc(c)}</a>` : esc(c)}</h2><ul class="cards">${guides.filter(g => g.category === c).map(card).join('')}</ul></section>`;

@@ -1,6 +1,6 @@
 ---
 title: Affiliate disclosure
-description: How Treat My Cat earns money.
+description: How Treat My Cat earns money through affiliate links, including Amazon, and why it never affects our advice.
 ---
 Treat My Cat is free to read. To keep it that way, some links on this site are affiliate links. If you click one and buy something, we may earn a small commission at no extra cost to you.
 

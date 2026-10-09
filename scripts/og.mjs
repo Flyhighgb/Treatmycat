@@ -10,7 +10,7 @@ const esc = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: 1200, height: 630 } });
-for (const file of readdirSync('public/img').filter(f => f.endsWith('.svg'))) {
+for (const file of readdirSync('public/img').filter(f => f.endsWith('.svg') && f !== 'hero.svg')) {
   const slug = file.replace('.svg', '');
   const heading = names[slug] ? `${names[slug]} guides` : config.name;
   const sub = names[slug] ? config.name : config.tagline;
