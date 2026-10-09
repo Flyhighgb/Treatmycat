@@ -25,13 +25,18 @@ Create `content/guides/<slug>.md`:
 ---
 title: How to ...
 description: One sentence for search results and cards.
-category: Digestion | Skin and parasites | Food and treats | Behaviour | Health conditions | Care and grooming
+category: Digestion | Skin and parasites | Food and treats | Behavior | Health conditions | Care and grooming
 date: YYYY-MM-DD
+reviewed: YYYY-MM-DD
 ---
 Body in Markdown.
 ```
 
 Add `draft: true` to keep it unpublished. Read `CONTENT.md` before writing.
+
+## Topics and images
+
+Topics are listed in `TOPICS` at the top of `build.mjs`. Each has an illustration in `public/img/<slug>.svg` (shown on cards and guides) and a share image in `public/og/<slug>.png` (shown when a link is shared). To add a topic, add it to `TOPICS`, draw its SVG, then run `npm run og` (needs Playwright) to make the share image.
 
 ## Settings
 
