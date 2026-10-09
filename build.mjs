@@ -243,7 +243,7 @@ ${NO_VET_NOTE.includes(g.category) ? '' : `<div class="vet-note" role="note"><st
 ${g.affiliate ? disclosure : ''}
 ${g.toc.length > 2 ? `<details class="toc toc-inline"><summary>In this guide</summary><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></details>` : ''}
 ${g.html}
-<aside class="picks"><div><strong>Looking for the right gear?</strong><span>See our top picks of toys, scratching posts, treats and grooming tools.</span></div><a class="button" href="/best-cat-products/">See our product picks</a></aside>
+<div class="picks"><div><strong>Looking for the right gear?</strong><span>See our top picks of toys, scratching posts, treats and grooming tools.</span></div><a class="button" href="/best-cat-products/">See our product picks</a></div>
 <p class="trust-line">Written from published veterinary guidance. <a href="/about/#how-we-write-our-guides">How we write our guides</a>.</p>
 </article>
 ${g.toc.length > 2 ? `<aside class="sidebar"><nav class="toc" aria-label="In this guide"><p class="toc-title">In this guide</p><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></nav></aside>` : ''}
