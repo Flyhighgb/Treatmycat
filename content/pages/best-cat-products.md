@@ -54,7 +54,7 @@ Regular brushing cuts down on swallowed hair and hairballs. Full guide: [how to 
 
 | Type | Best for | Popular pick |
 |---|---|---|
-| Rubber grooming mitt | Cats that dislike brushes | [Grooming mitts](amazon:cat grooming glove) |
+| Rubber grooming brush or mitt | Cats that dislike brushes | [KONG Cat ZoomGroom](amazon:KONG Cat ZoomGroom) [More grooming mitts](amazon:cat grooming glove) |
 | Wide-toothed comb | Long-haired cats and tangles | [Wide-toothed combs](amazon:wide tooth cat comb) |
 | Flea comb | The quickest way to check your cat for fleas | [Flea combs](amazon:cat flea comb) |
 

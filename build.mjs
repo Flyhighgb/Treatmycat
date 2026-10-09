@@ -283,7 +283,7 @@ const SHORT = { 'how-to-treat-cat-fleas': 'Fleas', 'how-to-treat-cat-diarrhea': 
   'how-to-treat-cat-constipation': 'Constipation', 'best-toys-for-indoor-cats': 'Best toys', 'how-to-treat-cat-ear-mites': 'Ear mites' };
 const popular = Object.entries(SHORT).map(([slug, short]) => ({ ...guides.find(g => g.slug === slug), short })).filter(g => g.slug).slice(0, 5);
 
-writeFileSync(join(OUT, 'index.html'), layout({ title: config.name, description: config.tagline, path: '/',
+writeFileSync(join(OUT, 'index.html'), layout({ title: config.name, description: `${config.tagline.replace(/\.$/, '')}: what's causing it, what you can safely do at home, when to see a vet, and the best toys and gear.`, path: '/',
   schema: { '@context': 'https://schema.org', '@type': 'WebSite', name: config.name, url: config.url },
   body: `<section class="hero"><div class="wrap hero-grid">
 <div>
