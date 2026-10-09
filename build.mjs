@@ -134,17 +134,36 @@ ${body}
     <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
   </div>
   <p class="footer-note">Information on this site is general guidance, not a substitute for a vet. If your cat is unwell, contact your vet. For a suspected poisoning, call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.</p>
-  <p class="footer-note">© ${new Date().getFullYear()} ${esc(config.name)}</p>
+  <p class="footer-note">© ${new Date().getFullYear()} ${esc(config.name)}. Photos from <a href="https://unsplash.com/?utm_source=treatmycat&amp;utm_medium=referral">Unsplash</a>.</p>
 </div></footer>
 ${analytics}
 </body>
 </html>`;
 }
 
+// Guide photos are free Unsplash photos (unsplash.com/license), served from Unsplash's image CDN.
+// `image:` in a guide's front matter is the photo id, e.g. photo-1511275539165-cc46b1ee89bf.
+const HERO_PHOTO = { id: 'photo-1507095875722-a3d31d7e85fa', alt: 'A tabby cat close up' };
+const photoUrl = (id, w, h) => `https://images.unsplash.com/${id}?auto=format&amp;fit=crop&amp;w=${w}${h ? `&amp;h=${h}` : ''}&amp;q=70`;
+function photo(id, alt, { w, h, sizes, eager = false, cls = '' }) {
+  const ratio = h / w;
+  const srcset = [w / 2, w, w * 1.5].map(x => `${photoUrl(id, Math.round(x), Math.round(x * ratio))} ${Math.round(x)}w`).join(', ');
+  return `<img class="${cls}" src="${photoUrl(id, w, h)}" srcset="${srcset}" sizes="${sizes}" alt="${esc(alt || '')}" width="${w}" height="${h}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
+}
+const thumbFor = g => g.image
+  ? `<span class="thumb photo">${photo(g.image, '', { w: 640, h: 400, sizes: '(max-width: 640px) 100vw, 360px' })}</span>`
+  : `<span class="thumb"><img src="${iconFor(g.category)}" alt="" width="72" height="72" loading="lazy"></span>`;
+
 function card(g) {
   return `<li class="card" style="--tint:${tintFor(g.category)}"><a href="/guides/${g.slug}/">
-<span class="thumb"><img src="${iconFor(g.category)}" alt="" width="72" height="72" loading="lazy"></span>
+${thumbFor(g)}
 <span class="card-body">${g.category ? `<span class="chip">${esc(g.category)}</span>` : ''}<h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="read">${g.minutes} min read</span></span></a></li>`;
+}
+
+function featured(g) {
+  return `<a class="featured" style="--tint:${tintFor(g.category)}" href="/guides/${g.slug}/">
+${g.image ? `<span class="featured-photo">${photo(g.image, '', { w: 900, h: 600, sizes: '(max-width: 760px) 100vw, 560px' })}</span>` : `<span class="featured-photo thumb"><img src="${iconFor(g.category)}" alt="" width="120" height="120"></span>`}
+<span class="featured-body"><span class="kicker">New guide</span>${g.category ? `<span class="chip">${esc(g.category)}</span>` : ''}<h3>${esc(g.title)}</h3><p>${esc(g.description)}</p><span class="more">Read the guide <span aria-hidden="true">→</span></span></span></a>`;
 }
 
 function topicTile(t, count) {
@@ -202,7 +221,8 @@ for (const g of guides) {
 <p class="lead">${esc(g.description)}</p>
 <p class="meta"><span>By the ${esc(config.name)} editorial team</span><span>Last reviewed ${esc(longDate(reviewed))}</span><span>${g.minutes} min read</span></p>
 </div>
-<span class="head-icon"><img src="${iconFor(g.category)}" alt="" width="140" height="140"></span>
+${g.image ? `<figure class="head-photo">${photo(g.image, g.imageAlt, { w: 720, h: 540, sizes: '(max-width: 760px) 100vw, 360px', eager: true })}</figure>`
+  : `<span class="head-icon"><img src="${iconFor(g.category)}" alt="" width="140" height="140"></span>`}
 </div></header>
 <div class="wrap article-grid">
 <article class="post">
@@ -243,8 +263,8 @@ write('/guides/', layout({ title: 'All guides', description: `Every ${config.nam
     return `<section class="section"><h2>${t ? `<a href="/topics/${t.slug}/">${esc(c)}</a>` : esc(c)}</h2><ul class="cards">${guides.filter(g => g.category === c).map(card).join('')}</ul></section>`;
   }).join('') + '</div>' }));
 
-// Inline the hero so its background blob can follow light and dark mode.
-const heroArt = readFileSync('public/img/hero.svg', 'utf8').replace(' width="480" height="400"', '').replace('<svg ', '<svg class="hero-art" aria-hidden="true" focusable="false" ').replace('fill="#fbe9dc"', 'style="fill:var(--hero-blob)"');
+const heroArt = `<div class="hero-photo">${photo(HERO_PHOTO.id, HERO_PHOTO.alt, { w: 640, h: 640, sizes: '(max-width: 760px) 280px, 420px', eager: true })}
+<span class="badge badge-heart" aria-hidden="true">♥</span><span class="badge badge-note">${guides.length} vet-minded guides</span></div>`;
 const SHORT = { 'how-to-treat-cat-fleas': 'Fleas', 'how-to-treat-cat-diarrhea': 'Diarrhea', 'how-to-treat-cat-hairballs': 'Hairballs',
   'how-to-treat-cat-constipation': 'Constipation', 'best-toys-for-indoor-cats': 'Best toys', 'how-to-treat-cat-ear-mites': 'Ear mites' };
 const popular = Object.entries(SHORT).map(([slug, short]) => ({ ...guides.find(g => g.slug === slug), short })).filter(g => g.slug).slice(0, 5);
@@ -266,7 +286,20 @@ ${heroArt}
 <li><strong>Kept up to date</strong><span>Each guide shows when it was last reviewed.</span></li>
 </ul></div></section>
 <section class="section"><div class="wrap"><h2>Find help by problem</h2><ul class="topics">${used.map(t => topicTile(t, guides.filter(g => g.category === t.name).length)).join('')}</ul></div></section>
-<section class="section band"><div class="wrap"><div class="section-head"><h2>Latest guides</h2><a href="/guides/">See all guides →</a></div><ul class="cards">${guides.slice(0, 6).map(card).join('')}</ul></div></section>` }));
+<section class="vet-band"><div class="wrap vet-band-grid">
+<div><p class="eyebrow">Don't wait</p><h2>When to call the vet straight away</h2>
+<p>Some problems can't wait for a guide. Call your vet or an emergency clinic now if your cat:</p></div>
+<ul>
+<li>Is straining to pee and little or nothing comes out, especially a male cat</li>
+<li>Is breathing with an open mouth, or struggling to breathe</li>
+<li>Has eaten something toxic, such as lilies, human medicines or antifreeze</li>
+<li>Has collapsed, is very weak, or can't stand</li>
+<li>Hasn't eaten for more than a day</li>
+</ul>
+</div></section>
+<section class="section band"><div class="wrap"><div class="section-head"><h2>Latest guides</h2><a href="/guides/">See all guides →</a></div>
+${featured(guides[0])}
+<ul class="cards">${guides.slice(1, 7).map(card).join('')}</ul></div></section>` }));
 
 const newest = guides.map(g => lastmod[`/guides/${g.slug}/`]).sort().pop();
 const urls = [['/', newest], ['/guides/', newest], ...used.map(t => [`/topics/${t.slug}/`]),

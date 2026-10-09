@@ -4,6 +4,8 @@ description: Why cats get hairballs, simple ways to reduce them, and when coughi
 category: Digestion
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1511275539165-cc46b1ee89bf
+imageAlt: A cat licking its paw
 ---
 Cats swallow loose hair while grooming. Most of it passes through the gut, but some clumps in the stomach and comes back up as a hairball. An occasional hairball is normal, especially in long-haired cats. **Frequent hairballs (more than once or twice a month) are not normal** and often point to over-grooming, a gut problem or a skin problem.
 

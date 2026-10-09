@@ -4,6 +4,8 @@ description: How to spot ear mites, how they're treated, and why you should get 
 category: Skin and parasites
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1771945018356-c457c725e61b
+imageAlt: A black and white cat scratching its ear
 ---
 Ear mites (*Otodectes cynotis*) are tiny parasites that live in the ear canal. They're very common in kittens, outdoor cats and newly adopted cats, and they spread easily between cats and dogs that live together. The good news is that modern treatments clear them quickly, often with a single dose.
 

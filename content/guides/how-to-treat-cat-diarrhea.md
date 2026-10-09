@@ -4,6 +4,8 @@ description: Common causes of diarrhea in cats, safe home care for mild cases, a
 category: Digestion
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1727510153658-643787acb16a
+imageAlt: A cat sitting in a litter box
 ---
 Most short bouts of diarrhea in adult cats clear up on their own within a day or two. Your job is to keep your cat hydrated, keep things gentle, and watch for the signs that it's more serious. Kittens, senior cats and cats with other health problems are the exception: they can go downhill quickly, so call your vet early.
 

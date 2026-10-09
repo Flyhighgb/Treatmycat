@@ -4,6 +4,8 @@ description: How many treats a cat can have, the best healthy options, and the h
 category: Food and treats
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1507150823660-eed1895c23c7
+imageAlt: A person feeding a black and white cat
 ---
 Treats are great for training, bonding and making vet trips or medicine time easier. But they add up fast. The key is to **keep treats to no more than 10% of your cat's daily calories**, and to steer clear of the human foods that are toxic to cats.
 

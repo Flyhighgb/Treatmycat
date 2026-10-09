@@ -4,6 +4,8 @@ description: How to tell if your cat is constipated, gentle ways to help at home
 category: Digestion
 date: 2026-10-09
 reviewed: 2026-10-09
+image: photo-1596921825946-d738194fac80
+imageAlt: A tabby cat lying on a blue blanket
 ---
 Most cats poop at least once a day. A cat that goes **more than 48 hours without pooping**, or passes small, hard, dry stools, may be constipated. It's especially common in older cats, and in most cases the fix starts with getting more water into your cat.
 
