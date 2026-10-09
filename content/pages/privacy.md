@@ -1,6 +1,6 @@
 ---
 title: Privacy policy
-description: What data Treat My Cat collects and why.
+description: What data Treat My Cat collects, how analytics and affiliate links work, and your privacy choices.
 ---
 **Last updated: October 2026**
 
