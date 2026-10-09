@@ -8,6 +8,8 @@ If your cat is unwell, start with your vet, not a product. Nothing here treats i
 
 ## Toys
 
+![A cat playing with a feather toy](unsplash:photo-1718975463952-a7ca7d2c7daf)
+
 Most indoor cats need two or three short play sessions a day. A wand toy is the best place to start. Full guide: [the best toys for indoor cats](/guides/best-toys-for-indoor-cats/).
 
 | Type | Best for | Shop |
@@ -21,6 +23,8 @@ Most indoor cats need two or three short play sessions a day. A wand toy is the 
 
 ## Scratching posts and cat trees
 
+![A white and brown cat on a cat tree](unsplash:photo-1599907370087-e0955afcb920)
+
 Scratching is normal, and the right post saves your furniture. Choose one that's tall, sturdy and covered in sisal. Full guide: [how to choose a scratching post](/guides/how-to-choose-a-scratching-post/).
 
 | Type | Best for | Shop |
@@ -32,6 +36,8 @@ Scratching is normal, and the right post saves your furniture. Choose one that's
 
 ## Treats
 
+![An orange cat eating a treat from a hand](unsplash:photo-1781120810307-e35a8dc5ca9e)
+
 Keep treats to no more than 10% of your cat's daily calories. Full guide: [healthy treats for cats](/guides/healthy-cat-treats/).
 
 | Type | Best for | Shop |
@@ -42,6 +48,8 @@ Keep treats to no more than 10% of your cat's daily calories. Full guide: [healt
 
 ## Grooming
 
+![A cat lying on a couch next to a grooming brush](unsplash:photo-1635859714497-32ae659dc82e)
+
 Regular brushing cuts down on swallowed hair and hairballs. Full guide: [how to help a cat with hairballs](/guides/how-to-treat-cat-hairballs/).
 
 | Type | Best for | Shop |
@@ -51,6 +59,8 @@ Regular brushing cuts down on swallowed hair and hairballs. Full guide: [how to 
 | Flea comb | The quickest way to check your cat for fleas | [Flea combs](amazon:cat flea comb) |
 
 ## Water and litter box
+
+![A ginger cat drinking from a water fountain](unsplash:photo-1764741368227-38ac9fd670a2)
 
 Many cats don't drink enough, and a comfortable litter box prevents a lot of problems. Full guide: [how to help a constipated cat](/guides/how-to-treat-cat-constipation/).
 

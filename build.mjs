@@ -31,11 +31,17 @@ function parse(file) {
     const i = line.indexOf(':');
     if (i > 0) meta[line.slice(0, i).trim()] = line.slice(i + 1).trim().replace(/^"(.*)"$/, '$1');
   }
-  const body = amazonLinks(m[2]);
+  const body = unsplashImages(amazonLinks(m[2]));
   const minutes = Math.max(1, Math.round(m[2].split(/\s+/).length / 220));
   const html = callouts(stackTables(headingIds(marked.parse(body))));
   return { ...meta, slug: basename(file, '.md'), faq: faqs(body), minutes, affiliate: body.includes('rel="sponsored'), html,
     toc: [...html.matchAll(/<h2 id="([^"]+)">(.*?)<\/h2>/g)].map(([, id, text]) => ({ id, text })).filter(h => h.id !== 'sources') };
+}
+
+// ![A cat playing](unsplash:photo-123) on its own line -> a responsive Unsplash photo.
+function unsplashImages(md) {
+  return md.replace(/^!\[([^\]]*)\]\(unsplash:(photo-[\w-]+)\)$/gm, (_, alt, id) =>
+    `<figure class="section-photo">${photo(id, alt, { w: 760, h: 380, sizes: '(max-width: 800px) 100vw, 720px' })}</figure>`);
 }
 
 // [Shop sisal scratching posts](amazon:sisal scratching post) -> an Amazon search link with our Associates tag.
@@ -121,7 +127,7 @@ ${ads}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header"><div class="wrap">
   <a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> ${esc(config.name)}</a>
-  <nav aria-label="Main"><a href="/guides/">All guides</a><a class="hide-sm" href="/topics/toys-and-gear/">Toys &amp; gear</a><a href="/best-cat-products/">Best products</a><a class="hide-sm" href="/about/">About</a></nav>
+  <nav aria-label="Main"><a href="/guides/"><span class="hide-sm">All guides</span><span class="show-sm">Guides</span></a><a class="hide-sm" href="/topics/toys-and-gear/">Toys &amp; gear</a><a href="/best-cat-products/"><span class="hide-sm">Best products</span><span class="show-sm">Products</span></a><a class="hide-sm" href="/about/">About</a></nav>
 </div></header>
 <main id="main">
 ${body}
