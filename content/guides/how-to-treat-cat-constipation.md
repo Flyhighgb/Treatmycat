@@ -35,10 +35,10 @@ A quick way to check: look for wet clumps in the litter. If your cat is visiting
 
 For a mild case in an otherwise well cat:
 
-1. **More water.** Switch some or all meals to wet food, add a little water to meals, and try a water fountain. This makes the biggest difference.
+1. **More water.** Switch some or all meals to wet food, add a little water to meals, and try a [water fountain](amazon:cat water fountain). This makes the biggest difference.
 2. **More fiber.** A high-fiber or gut-health food can help. Make changes gradually over 7 to 10 days.
 3. **More movement.** Play sessions with wand toys get the gut moving too.
-4. **Make the litter box easy.** Keep it scooped, use a box with a low entrance for older or arthritic cats, and put it somewhere quiet. Have one more box than you have cats.
+4. **Make the litter box easy.** Keep it scooped, use a [box with a low entrance](amazon:low entry litter box senior cat) for older or arthritic cats, and put it somewhere quiet. Have one more box than you have cats.
 5. **Brush regularly** to cut down on swallowed hair.
 6. **Keep a note** of when your cat last pooped and what it looked like, so you can tell your vet.
 

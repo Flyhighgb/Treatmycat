@@ -16,7 +16,7 @@ Fleas are the most common parasite in cats, including indoor cats. They hitch a 
 - Tapeworm segments that look like grains of rice near your cat's bottom or in their bedding. Cats catch tapeworm by swallowing fleas while grooming.
 - Itchy red bites on people's ankles
 
-Run a fine-toothed **flea comb** through the fur over a white sheet or towel, paying attention to the neck, back and base of the tail. It's the quickest way to confirm fleas, and it's a good way to check that treatment is working.
+Run a fine-toothed **flea comb** ([see flea combs](amazon:cat flea comb)) through the fur over a white sheet or towel, paying attention to the neck, back and base of the tail. It's the quickest way to confirm fleas, and it's a good way to check that treatment is working.
 
 ## Step 1: treat every pet in the house
 
@@ -38,7 +38,7 @@ Most of the flea population lives in your home, not on the cat.
 
 1. **Vacuum daily for two weeks**: carpets, rugs, couches, under furniture and along baseboards. The vibration also makes pupae hatch, so the treatment can kill them. Empty the vacuum into an outdoor trash can each time.
 2. **Wash bedding** (the cat's, and anywhere it sleeps, including your bed) on a hot cycle, 140°F (60°C) if the fabric allows, and dry on high heat.
-3. **Use a household flea spray** containing an insect growth regulator (such as methoprene or pyriproxyfen), which stops eggs and larvae developing. Keep cats and fish out of the room until it's dry, and follow the label.
+3. **Use a household flea spray** containing an insect growth regulator (such as methoprene or pyriproxyfen), which stops eggs and larvae developing ([see household flea sprays](amazon:household flea spray insect growth regulator)). Check the label says it's for use in homes with cats. Keep cats and fish out of the room until it's dry, and follow the label.
 4. **Don't forget the car** and any pet carriers if your cat travels.
 
 ## Step 3: be patient and keep going

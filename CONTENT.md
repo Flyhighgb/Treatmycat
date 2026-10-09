@@ -26,31 +26,54 @@ A worried cat owner who just searched "how to treat my cat's ___". Answer their 
 - No filler intros, no "In conclusion", no keyword stuffing.
 - One topic per guide. Check `content/guides/` first and don't duplicate an existing guide; update it instead.
 - Link to 1–3 related guides on the site with relative links like `/guides/how-to-treat-cat-fleas/`.
-- `category` must be one of: Digestion, Skin and parasites, Food and treats, Behavior, Health conditions, Care and grooming. Each has its own topic page and illustration.
+- `category` must be one of: Digestion, Skin and parasites, Food and treats, Behavior, Health conditions, Care and grooming, Toys and gear. Each has its own topic page and illustration.
+
+## Buying guides (Toys and gear)
+Buying guides help someone choose a product: "best X for cats" or "how to choose X". They are where most affiliate income will come from. Use this shape instead of the health guide shape:
+1. A short opening: why it matters and the quick answer.
+2. What to look for (the features that matter).
+3. A table of the main types, what each is best for, and what to know.
+4. Placement, setup or how to use it.
+5. What to avoid, including any safety risks, with a vet note where health is involved.
+6. `## Common questions`, `## The short version` and `## Sources`, as for health guides.
+
+Rules for buying guides:
+- **Never claim we tested or own a product**, and never invent reviews, star ratings, prices or "editor's choice" awards.
+- Describe product *types* and features rather than specific brands. Add a "Shop" column to the types table with an Amazon link for each type (see below).
 
 ## Affiliate links
 - Only add links from programs listed in `AFFILIATES.md`, and only where a product genuinely fits the advice.
 - Never put a product recommendation above a "see a vet" warning.
-- Mark links with `rel="sponsored nofollow"` (use HTML `<a>` tags for these).
+- **Amazon (active):** write `[See water fountains](amazon:cat water fountain)`. The build turns it into an amazon.com search link with our tag, marks it `rel="sponsored nofollow"`, and adds the affiliate notice at the top of the guide. Use specific, sensible search words. Don't hand-write Amazon URLs.
+- In health guides, link only everyday care products (combs, fountains, litter boxes, treats), never medicines, and only in the home care steps, not in the "see a vet" sections.
+- 1 to 3 Amazon links in a health guide, one per product type in a buying guide.
 
 ## Topic backlog
-Write these next, roughly in order, and remove each from the list once published:
+Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
 - How to treat a cat's upset stomach and vomiting
 - How to treat dry, flaky skin in cats
+- Buying guide: best cat trees for indoor cats
 - How to treat worms in cats
 - How to help a cat with a urinary tract problem (FLUTD)
+- Buying guide: how to choose a litter box (and the best litter types)
 - How to treat cat acne
 - How to treat a cat's eye infection or runny eyes
+- Buying guide: best cat beds and where cats like to sleep
 - How to help a cat with arthritis
 - How to treat a cat bite or scratch wound (on the cat)
+- Buying guide: how to choose a cat carrier for vet trips
 - How to help a stressed or anxious cat
 - How to get a picky cat to eat
+- Buying guide: best cat water fountains
 - How to help an overweight cat lose weight
 - How to treat bad breath and gum disease in cats
+- Buying guide: best puzzle feeders and slow feeders
 - How to treat ringworm in cats
 - How to care for a cat with kidney disease
+- Buying guide: best cat grooming brushes by coat type
 - How to give a cat a tablet
 - How to treat a cat with a cold (upper respiratory infection)
+- Buying guide: best cat window perches and outdoor enclosures (catios)
 - How to stop a cat over-grooming
 - Best treats for cats with sensitive stomachs
 - How to treat a cat's matted fur

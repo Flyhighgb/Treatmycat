@@ -46,7 +46,7 @@ This is for an otherwise bright, healthy adult cat that's still eating and drink
 5. **Cut out milk and treats** until things are back to normal.
 6. **Keep the litter box clean** so you can see what's happening, and note how often your cat goes and what the stool looks like. Your vet will ask.
 
-A **probiotic made for cats** may help some cats recover faster. Pumpkin is often suggested online, but there is little evidence for it in cats, and too much can make diarrhea worse.
+A **probiotic made for cats** ([see cat probiotics](amazon:probiotic for cats)) may help some cats recover faster. Pumpkin is often suggested online, but there is little evidence for it in cats, and too much can make diarrhea worse.
 
 ## Never give
 

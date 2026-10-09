@@ -26,11 +26,11 @@ A hairball is usually a damp, sausage-shaped clump of fur, often brought up afte
 - Long-haired cats: daily, with a wide-toothed comb for tangles
 - Brush more often during spring and fall shedding
 
-Short, gentle sessions with a treat at the end work better than one long battle. A rubber grooming mitt is a good start for cats that dislike brushes.
+Short, gentle sessions with a treat at the end work better than one long battle. A [rubber grooming mitt](amazon:cat grooming glove) is a good start for cats that dislike brushes, and a [wide-toothed comb](amazon:wide tooth cat comb) helps with long coats.
 
 **Try a hairball-control food.** These contain extra fiber that helps hair move through the gut. Switch gradually over 7 to 10 days to avoid an upset stomach.
 
-**Increase water intake.** Wet food, a water fountain and several water bowls around the home all help keep things moving.
+**Increase water intake.** Wet food, a [water fountain](amazon:cat water fountain) and several water bowls around the home all help keep things moving.
 
 **Hairball gels or pastes.** Lubricant gels (often malt-flavored) can help hair pass. Use them as the label directs, and not as a substitute for brushing. Don't give them at the same time as medicines, as they can reduce absorption.
 
