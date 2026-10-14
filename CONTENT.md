@@ -53,7 +53,6 @@ Rules for buying guides:
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
-- How to treat dry, flaky skin in cats
 - Buying guide: best cat trees for indoor cats
 - How to treat worms in cats
 - How to help a cat with a urinary tract problem (FLUTD)
