@@ -1,6 +1,8 @@
 ---
 title: Healthy treats for cats: what's good, what's safe and how much
 description: How many treats a cat can have, the best healthy options, and the human foods that are dangerous for cats.
+seoTitle: "Healthy cat treats: what's safe and how many a day"
+seoDescription: "How many treats a cat can have each day, the healthiest store-bought and homemade options, and the common human foods that are toxic to cats."
 category: Food and treats
 date: 2026-10-09
 reviewed: 2026-10-09

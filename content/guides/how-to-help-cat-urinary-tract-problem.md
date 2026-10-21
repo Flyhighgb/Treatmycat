@@ -1,6 +1,8 @@
 ---
 title: How to help a cat with a urinary tract problem (FLUTD)
 description: The signs of bladder and urinary problems in cats, why a blocked cat is an emergency, and how to help prevent flare-ups at home.
+seoTitle: "Cat urinary tract problems (FLUTD): signs and home care"
+seoDescription: "Peeing outside the box, straining or blood in the urine? The signs of FLUTD, why a male cat who can't pee is an emergency, and how to prevent flare-ups."
 category: Health conditions
 date: 2026-10-21
 reviewed: 2026-10-21

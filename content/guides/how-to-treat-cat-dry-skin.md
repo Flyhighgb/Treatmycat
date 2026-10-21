@@ -1,6 +1,8 @@
 ---
 title: How to treat dry, flaky skin (dandruff) in cats
 description: What causes dandruff and dry skin in cats, gentle ways to help at home, and when flakes mean parasites, ringworm or an underlying illness.
+seoTitle: "Cat dandruff and dry, flaky skin: causes and how to help"
+seoDescription: "What causes dandruff and dry skin in cats, simple fixes for diet, grooming and humidity, and when flakes point to mites, ringworm or an illness."
 category: Skin and parasites
 date: 2026-10-14
 reviewed: 2026-10-14

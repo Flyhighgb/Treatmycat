@@ -1,6 +1,8 @@
 ---
 title: How to treat worms in cats
 description: The common types of worms in cats, the signs to look for, how vets treat them, and how to keep your cat (and family) worm-free.
+seoTitle: "Worms in cats: signs, treatment and prevention"
+seoDescription: "How to tell if your cat has roundworms, tapeworms or hookworms, how vets treat them, and simple steps to keep your cat and your family worm-free."
 category: Skin and parasites
 date: 2026-10-19
 reviewed: 2026-10-19

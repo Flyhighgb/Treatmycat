@@ -104,6 +104,7 @@ function layout({ title, description, path, body, schema, image = '/og/default.p
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(description)}">
+<meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="${config.url}${path}">
 <meta property="og:site_name" content="${esc(config.name)}">
 <meta property="og:title" content="${esc(title)}">
@@ -226,7 +227,8 @@ for (const g of guides) {
   if (g.faq.length) schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
     mainEntity: g.faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
   write(path, layout({
-    title: g.title, description: g.description, path, schema, image: share,
+    // seoTitle/seoDescription are the search-result wording; the page itself keeps title/description.
+    title: g.seoTitle || g.title, description: g.seoDescription || g.description, path, schema, image: share,
     body: `<header class="page-head" style="--tint:${tintFor(g.category)}"><div class="wrap page-head-grid">
 <div>
 <p class="crumbs"><a href="/guides/">Guides</a>${topic ? ` › <a href="/topics/${topic.slug}/">${esc(topic.name)}</a>` : g.category ? ` › ${esc(g.category)}` : ''}</p>

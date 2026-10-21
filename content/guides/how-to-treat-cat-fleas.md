@@ -1,6 +1,8 @@
 ---
 title: How to treat fleas on your cat (and get them out of your home)
 description: The safe way to get rid of fleas on a cat, what never to use, and how to stop them coming back.
+seoTitle: "How to get rid of fleas on your cat and in your home"
+seoDescription: "The safe way to kill fleas on a cat, why dog flea products can be deadly, and the simple home cleaning routine that stops fleas coming back."
 category: Skin and parasites
 date: 2026-10-09
 reviewed: 2026-10-09
