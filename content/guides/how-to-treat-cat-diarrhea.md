@@ -1,7 +1,7 @@
 ---
 title: What to do when your cat has diarrhea
 description: Common causes of diarrhea in cats, safe home care for mild cases, and the warning signs that need a vet.
-seoTitle: "Cat diarrhea: causes, home care and when to see a vet"
+seoTitle: "How to stop cat diarrhea: home care and when to see a vet"
 seoDescription: "Why cats get diarrhea, what you can safely do at home for a mild case, what never to give, and the warning signs that mean a same-day vet visit."
 category: Digestion
 date: 2026-10-09
