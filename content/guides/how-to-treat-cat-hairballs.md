@@ -1,6 +1,8 @@
 ---
 title: How to help a cat with hairballs
 description: Why cats get hairballs, simple ways to reduce them, and when coughing or vomiting means something else.
+seoTitle: "Cat hairballs: how to help and when it's something else"
+seoDescription: "Why cats get hairballs, easy ways to reduce them with brushing and diet, and when hacking or vomiting is a sign of asthma or a blockage instead."
 category: Digestion
 date: 2026-10-09
 reviewed: 2026-10-09

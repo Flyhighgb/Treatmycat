@@ -1,6 +1,8 @@
 ---
 title: Best cat trees for indoor cats (and how to choose one)
 description: What makes a good cat tree, which type suits your cat and your home, where to put it, and popular picks for big cats, small spaces and seniors.
+seoTitle: "Best cat trees for indoor cats: types, sizes and picks"
+seoDescription: "How to pick a cat tree that won't wobble, which type suits big cats, kittens, seniors or small apartments, where to put it, and popular picks on Amazon."
 category: Toys and gear
 date: 2026-10-16
 reviewed: 2026-10-16

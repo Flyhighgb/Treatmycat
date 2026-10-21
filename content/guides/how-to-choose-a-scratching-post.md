@@ -1,6 +1,8 @@
 ---
 title: How to choose a scratching post your cat will actually use
 description: What to look for in a scratching post or cat tree, where to put it, and how to get your cat to scratch it instead of the couch.
+seoTitle: "How to choose a scratching post your cat will use"
+seoDescription: "Why cats ignore some scratching posts, the height, material and stability that matter, where to put one, and how to move your cat off the couch."
 category: Toys and gear
 date: 2026-10-09
 reviewed: 2026-10-09

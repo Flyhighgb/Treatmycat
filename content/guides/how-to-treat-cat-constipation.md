@@ -1,6 +1,8 @@
 ---
 title: How to help a constipated cat
 description: How to tell if your cat is constipated, gentle ways to help at home, and when straining is an emergency.
+seoTitle: "Constipated cat: signs, safe home help and when to worry"
+seoDescription: "How to tell if your cat is constipated, gentle home fixes like water, fiber and exercise, and why straining in the litter box can be an emergency."
 category: Digestion
 date: 2026-10-09
 reviewed: 2026-10-09

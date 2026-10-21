@@ -1,6 +1,8 @@
 ---
 title: What to do when your cat is vomiting or has an upset stomach
 description: Why cats throw up, safe home care for a mild upset stomach, and the warning signs that mean your cat needs a vet.
+seoTitle: "Cat vomiting: why cats throw up and when to see a vet"
+seoDescription: "Why cats throw up food, foam or hairballs, safe home care for a mild upset stomach, and the warning signs that mean your cat needs a vet today."
 category: Digestion
 date: 2026-10-12
 reviewed: 2026-10-12

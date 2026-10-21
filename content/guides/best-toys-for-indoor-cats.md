@@ -1,6 +1,8 @@
 ---
 title: The best toys for indoor cats, and how to play with them
 description: Which cat toys are worth buying, which are a waste of money, the toys that are unsafe, and how to play so your cat actually gets tired.
+seoTitle: "Best toys for indoor cats (and which ones to skip)"
+seoDescription: "The cat toys worth buying, the ones that waste your money, the few that are actually unsafe, and how to play so a bored indoor cat finally gets tired."
 category: Toys and gear
 date: 2026-10-09
 reviewed: 2026-10-09

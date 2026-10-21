@@ -1,6 +1,8 @@
 ---
 title: How to treat ear mites in cats
 description: How to spot ear mites, how they're treated, and why you should get a vet to check first.
+seoTitle: "Ear mites in cats: signs, treatment and what to avoid"
+seoDescription: "How to tell ear mites from an ear infection, how vets treat them, why home remedies and oils can make things worse, and how to stop them spreading."
 category: Skin and parasites
 date: 2026-10-09
 reviewed: 2026-10-09
