@@ -1,11 +1,11 @@
 ---
 title: How to treat ear mites in cats
 description: How to spot ear mites, how they're treated, and why you should get a vet to check first.
-seoTitle: "Ear mites in cats: signs, treatment and what to avoid"
-seoDescription: "How to tell ear mites from an ear infection, how vets treat them, why home remedies and oils can make things worse, and how to stop them spreading."
+seoTitle: "How to get rid of ear mites in cats and kittens"
+seoDescription: "What kills ear mites in cats, whether you can treat them at home, why oils and old drops fall short, and how vets clear them, often in one dose."
 category: Skin and parasites
 date: 2026-10-09
-reviewed: 2026-10-09
+reviewed: 2026-10-21
 image: photo-1771945018356-c457c725e61b
 imageAlt: A black and white cat scratching its ear
 ---
@@ -59,6 +59,18 @@ Never push cotton swabs into the ear canal.
 - The ears are bleeding, very red or very painful.
 
 ## Common questions
+
+### What kills ear mites in cats fastest?
+
+A prescription spot-on that's licensed for ear mites, such as one containing selamectin or moxidectin, is usually the quickest and easiest option. It's applied to the back of the neck, often clears the mites with one or two doses, and protects against fleas at the same time. Your vet can give you one after confirming it's mites.
+
+### Can I treat ear mites at home?
+
+You'll give the treatment at home, but get the diagnosis from a vet first. Over-the-counter ear mite drops exist, but they usually need a longer course, and they won't help if the problem is actually an ear infection or polyp. Home remedies like oils don't clear an infestation.
+
+### How do you treat ear mites in kittens?
+
+Kittens get ear mites often, usually from their mother or littermates. Many treatments aren't safe for young or very small kittens, so ask your vet for one licensed for your kitten's age and weight, and treat the mother cat and any other pets too.
 
 ### Can humans catch ear mites from cats?
 
