@@ -83,3 +83,16 @@ Many cats don't drink enough, and a comfortable litter box prevents a lot of pro
 |---|---|---|
 | Water fountain | Getting cats to drink more, especially cats on dry food | [Catit Flower Fountain](amazon:Catit Flower Fountain) [More water fountains](amazon:cat water fountain) |
 | Low-entry litter box | Senior and arthritic cats | [Low-entry litter boxes](amazon:low entry litter box senior cat) |
+
+## Litter boxes and litter
+
+Most litter box problems come down to the box, the litter or where it is. Choose a big, open box with a low entry and unscented clumping litter, and have one more box than you have cats. Full guide: [how to choose a litter box](/guides/how-to-choose-a-litter-box/).
+
+| Type | Best for | Popular pick |
+|---|---|---|
+| Large open box | Most cats | [IRIS Open Top](amazon:IRIS Open Top Litter Box with Shield) [More large boxes](amazon:extra large cat litter box) |
+| High-sided box | Cats that kick litter or pee high | [Nature's Miracle High-Sided](amazon:Nature's Miracle High Sided Litter Box) [More high-sided boxes](amazon:high sided cat litter box) |
+| Covered (hooded) box | Cats that like privacy | [Catit Jumbo Hooded](amazon:Catit Jumbo Hooded Cat Pan) [More covered boxes](amazon:hooded cat litter box) |
+| Top-entry box | Reducing tracking, keeping dogs out | [IRIS Top Entry](amazon:IRIS USA Top Entry Cat Litter Box) [More top-entry boxes](amazon:top entry litter box) |
+| Unscented clumping clay litter | Most cats' favorite | [Dr. Elsey's Ultra](amazon:Dr. Elsey's Precious Cat Ultra Unscented Clumping Litter) [More clumping litter](amazon:unscented clumping clay cat litter low dust) |
+| Plant-based clumping litter | A lighter, natural option | [World's Best Clumping Corn](amazon:World's Best Cat Litter Clumping Corn) [More plant-based litter](amazon:natural clumping cat litter corn wheat) |

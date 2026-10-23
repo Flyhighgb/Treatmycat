@@ -54,7 +54,6 @@ Rules for buying guides:
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
-- Buying guide: how to choose a litter box (and the best litter types)
 - How to treat cat acne
 - How to treat a cat's eye infection or runny eyes
 - Buying guide: best cat beds and where cats like to sleep
