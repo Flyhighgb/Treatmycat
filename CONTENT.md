@@ -53,26 +53,21 @@ Rules for buying guides:
 - 1 to 3 Amazon links in a health guide. In a buying guide, one link per type in the table plus one per named product in Popular picks.
 
 ## Topic backlog
-Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
-- How to treat cat acne
-- How to treat a cat's eye infection or runny eyes
-- Buying guide: best cat beds and where cats like to sleep
-- How to help a cat with arthritis
-- How to treat a cat bite or scratch wound (on the cat)
-- Buying guide: how to choose a cat carrier for vet trips
+Write these next, roughly in order (the first ones fill the Behavior, Care and grooming, Food and treats and Health conditions topics, which have the fewest guides), and remove each from the list once published (buying guides go in the Toys and gear category):
 - How to help a stressed or anxious cat
-- How to get a picky cat to eat
-- Buying guide: best cat water fountains
-- How to help an overweight cat lose weight
-- How to treat bad breath and gum disease in cats
-- Buying guide: best puzzle feeders and slow feeders
-- How to treat ringworm in cats
-- How to care for a cat with kidney disease
-- Buying guide: best cat grooming brushes by coat type
 - How to give a cat a tablet
-- How to treat a cat with a cold (upper respiratory infection)
-- Buying guide: best cat window perches and outdoor enclosures (catios)
-- How to stop a cat over-grooming
-- Best treats for cats with sensitive stomachs
-- How to treat a cat's matted fur
-- How to help a cat with hyperthyroidism
+- How to get a picky cat to eat
+- How to help a cat with arthritis
+- Buying guide: best cat beds and where cats like to sleep
+- How to care for a cat with kidney disease
+- How to help an overweight cat lose weight
+- How to trim a cat's nails safely
+- How to treat a cat's eye infection or runny eyes
+- Buying guide: how to choose a cat carrier for vet trips
+- How to treat bad breath and gum disease in cats
+- How to treat cat acne
+- Buying guide: best cat water fountains
+- How to treat ringworm in cats
+- How to treat a cat bite or scratch wound (on the cat)
+- Buying guide: best puzzle feeders and slow feeders
+- Buying guide: best cat grooming brushes by coat type

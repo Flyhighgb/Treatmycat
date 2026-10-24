@@ -62,6 +62,8 @@ Hairballs are often blamed for other problems:
 
 These can be signs of a blockage, which is an emergency.
 
+Not sure if it's a hairball or something else? Our guide to [cat vomiting](/guides/how-to-treat-cat-vomiting/) covers the other common causes.
+
 ## Common questions
 
 ### How often is it normal for a cat to have hairballs?
