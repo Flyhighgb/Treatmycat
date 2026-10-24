@@ -72,6 +72,8 @@ Once your vet has checked your cat, these steps help most cats with urinary prob
 - Signs **keep coming back** after treatment
 - Your cat is **drinking or peeing much more** than usual. This can be a sign of kidney disease, diabetes or hyperthyroidism.
 
+Litter box setup matters for urinary health. Our guide to [choosing a litter box and litter](/guides/how-to-choose-a-litter-box/) covers size, litter types and where to put the box.
+
 ## Common questions
 
 ### Why is my cat peeing outside the litter box?

@@ -67,6 +67,8 @@ Expect to see some fleas for **up to 6 to 8 weeks**. That's new fleas hatching f
 
 If you see rice-like segments, your cat also needs a dewormer that covers tapeworm. Your vet can recommend one.
 
+Fleas can spread tapeworm, so read [worms in cats](/guides/how-to-treat-worms-in-cats/) as well. If your cat is still itchy and flaky once the fleas are gone, see our guide to [dry, flaky skin](/guides/how-to-treat-cat-dry-skin/).
+
 ## Common questions
 
 ### Can indoor cats get fleas?

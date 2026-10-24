@@ -69,6 +69,8 @@ Declawing is the surgical removal of the last bone of each toe. It can cause lon
 
 If your cat is suddenly scratching much more or much less than usual, or seems sore in its paws, see your vet. Pain, stress and arthritis can all change scratching habits.
 
+Many cat trees have scratching posts built in. See [the best cat trees for indoor cats](/guides/best-cat-trees-for-indoor-cats/) if you'd like both in one.
+
 ## Common questions
 
 ### Why does my cat ignore its scratching post?

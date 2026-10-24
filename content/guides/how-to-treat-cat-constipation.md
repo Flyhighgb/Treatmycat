@@ -61,6 +61,8 @@ For a mild case in an otherwise well cat:
 
 Your vet can give safe laxatives, an enema under supervision, or fluids, and check for underlying causes like kidney disease or arthritis. Cats with repeated constipation often do well on a prescription diet and a daily stool softener chosen by the vet, at the dose they prescribe.
 
+A box your cat dislikes can make them hold it in. See [how to choose a litter box](/guides/how-to-choose-a-litter-box/) if you think that's part of the problem, and our guide to [cat vomiting](/guides/how-to-treat-cat-vomiting/) if your cat is also being sick.
+
 ## Common questions
 
 ### How long can a cat go without pooping?

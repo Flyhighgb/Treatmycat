@@ -60,6 +60,8 @@ Bathing usually isn't needed, and frequent baths can dry the skin further. If yo
 
 Your vet may use a fine comb, sticky tape or skin scrapings to look for mites, a special light or culture to check for ringworm, and blood tests to look for illnesses that affect the coat.
 
+Head shaking and dark, crumbly ear wax alongside itchy skin can point to [ear mites](/guides/how-to-treat-cat-ear-mites/).
+
 ## Common questions
 
 ### Is cat dandruff normal?

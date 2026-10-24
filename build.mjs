@@ -138,7 +138,7 @@ ${body}
     <div><a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> ${esc(config.name)}</a>
       <p>${esc(config.tagline)}</p></div>
     <div><h2>Topics</h2><ul>${TOPICS.filter(t => usedNames.has(t.name)).map(t => `<li><a href="/topics/${t.slug}/">${esc(t.name)}</a></li>`).join('')}<li><a href="/best-cat-products/">Best cat products</a></li></ul></div>
-    <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
+    <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms and medical disclaimer</a></li><li><a href="/contact/">Contact</a></li></ul></div>
   </div>
   <p class="footer-note">Information on this site is general guidance, not a substitute for a vet. If your cat is unwell, contact your vet. For a suspected poisoning, call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.</p>
   <p class="footer-note">© ${new Date().getFullYear()} ${esc(config.name)}. Photos from <a href="https://unsplash.com/?utm_source=treatmycat&amp;utm_medium=referral">Unsplash</a>.</p>
@@ -221,7 +221,7 @@ for (const g of guides) {
     { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description,
       image: share.startsWith('https://') ? share : `${config.url}${share}`, mainEntityOfPage: `${config.url}${path}`,
       datePublished: g.date, dateModified: lastmod[path],
-      author: { ...org, name: `${config.name} editorial team` }, publisher: org },
+      author: { '@type': 'Person', name: config.author, url: `${config.url}/about/#who-writes-treat-my-cat` }, publisher: org },
     crumbSchema([['Guides', '/guides/'], ...(topic ? [[topic.name, `/topics/${topic.slug}/`]] : []), [g.title, path]]),
   ];
   if (g.faq.length) schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -234,7 +234,7 @@ for (const g of guides) {
 <p class="crumbs"><a href="/guides/">Guides</a>${topic ? ` › <a href="/topics/${topic.slug}/">${esc(topic.name)}</a>` : g.category ? ` › ${esc(g.category)}` : ''}</p>
 <h1>${esc(g.title)}</h1>
 <p class="lead">${esc(g.description)}</p>
-<p class="meta"><span>By the ${esc(config.name)} editorial team</span><span>Last reviewed ${esc(longDate(reviewed))}</span><span>${g.minutes} min read</span></p>
+<p class="meta"><span>By <a href="/about/#who-writes-treat-my-cat">${esc(config.author)}</a></span><span>Last reviewed ${esc(longDate(reviewed))}</span><span>${g.minutes} min read</span></p>
 </div>
 ${g.image ? `<figure class="head-photo">${photo(g.image, g.imageAlt, { w: 720, h: 540, sizes: '(max-width: 760px) 100vw, 360px', eager: true })}</figure>`
   : `<span class="head-icon"><img src="${iconFor(g.category)}" alt="" width="140" height="140"></span>`}
