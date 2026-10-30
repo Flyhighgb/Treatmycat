@@ -54,7 +54,6 @@ Rules for buying guides:
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
-- Buying guide: best cat beds and where cats like to sleep
 - How to help a cat with arthritis
 - How to treat a cat bite or scratch wound (on the cat)
 - Buying guide: how to choose a cat carrier for vet trips
