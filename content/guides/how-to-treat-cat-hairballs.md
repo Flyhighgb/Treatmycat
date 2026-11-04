@@ -64,7 +64,7 @@ These can be signs of a blockage, which is an emergency.
 
 Not sure if it's a hairball or something else? Our guide to [cat vomiting](/guides/how-to-treat-cat-vomiting/) covers the other common causes.
 
-## Common questions
+## Questions cat owners ask
 
 ### How often is it normal for a cat to have hairballs?
 
@@ -85,10 +85,6 @@ A cat that hacks or coughs regularly without bringing up a hairball may have ast
 ### Should I worry if my cat vomits a hairball right after eating?
 
 Vomiting soon after a meal is more often from eating too fast than from hair. Try smaller meals, a slow feeder or a puzzle feeder. If your cat vomits food regularly, with or without hair, see your vet, since it can be a sign of food sensitivity or bowel disease.
-
-## The short version
-
-Brush often, add fiber and water, and keep an eye on how often it happens. More than once or twice a month is worth a vet check.
 
 ## Sources
 

@@ -12,11 +12,13 @@ A worried cat owner who just searched "how to treat my cat's ___". Answer their 
 4. Safe home care, as numbered steps.
 5. "Never" / "Don't" list (toxic products, human medicines, home remedies that harm).
 6. "See a vet" section with clear warning signs.
-7. `## Common questions`: 3 to 5 questions people actually search, each as a `### Question?` heading followed by a short answer. The build turns these into FAQ data for Google, so keep that exact heading.
-8. "The short version": two or three sentences.
+7. `## Common questions` (or `## Your questions answered` or `## Questions cat owners ask`): 3 to 5 questions people actually search, each as a `### Question?` heading followed by a short answer. The build turns these into FAQ data for Google, so use one of those three headings exactly.
+8. "The short version" (optional): two or three sentences. Use it only when the guide is long or the answer is easy to miss; leave it out otherwise.
 9. `## Sources`: "This guide is based on published guidance from:" then a bulleted list of the organizations used, each linked to its home page. Only list sources you actually relied on, and never invent a page URL.
 
 ## Rules
+- **Don't write every guide the same way.** The shape above is a checklist of what to cover, not a fixed template. Name headings after the topic (for example "First: is it really constipation?" rather than "Signs"), merge or drop sections that don't fit, vary the FAQ heading, and vary how guides open. Avoid stock phrases that already appear across the site, such as "The good news is", "The key is" and "most cats".
+- Where it genuinely helps, add an original visual: a comparison box (`<figure class="compare">`, see the ear mites and treats guides) or a rules-of-thumb box (`<figure class="rules">`, see the litter box guide). Only use facts already stated and sourced in the guide.
 - Accuracy first. Base claims on established veterinary sources: AAFP, Cornell Feline Health Center, International Cat Care, Companion Animal Parasite Council, Merck Veterinary Manual, ASPCA. Never invent statistics, studies or dosages.
 - **No drug doses.** Say "at the dose on the label" or "as your vet prescribes".
 - Always send serious or uncertain cases to a vet. Never discourage a vet visit to sell a product.

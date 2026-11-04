@@ -25,6 +25,15 @@ Your vet can tell you your own cat's ideal calories. Overweight cats are much mo
 - **Plain cooked chicken, turkey or white fish.** Unseasoned, with no skin or bones, in small amounts.
 - **A few pieces of your cat's regular kibble**, kept aside from the daily ration. Many cats are just as happy with this.
 
+<figure class="compare" aria-label="Safe treats compared with foods to never feed a cat">
+<p class="compare-title">Safe treat or never?</p>
+<div class="compare-cols">
+<div class="compare-col"><p class="compare-head">Fine in small amounts</p><ul><li>Plain cooked chicken or turkey, no skin or bones</li><li>Plain cooked white fish, no bones</li><li>Freeze-dried single-ingredient meat or fish treats</li><li>Lickable puree treats made for cats</li><li>A few pieces of their own kibble</li></ul></div>
+<div class="compare-col danger"><p class="compare-head">Never feed</p><ul><li>Onions, garlic, chives and leeks, even as powder</li><li>Grapes and raisins</li><li>Chocolate, coffee and energy drinks</li><li>Alcohol and raw bread dough</li><li>Cooked bones</li></ul></div>
+</div>
+<figcaption>Keep all treats to no more than 10% of your cat's daily calories. Ate something on the right? Call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.</figcaption>
+</figure>
+
 ## What to look for on the label
 
 - **Meat or fish as the first ingredient.** Cats are obligate carnivores and need animal protein.

@@ -70,7 +70,7 @@ This is for a cat with a few blackheads and no redness, swelling or pain, ideall
 
 Your vet may take a skin scraping, hair sample or swab to check for mites, ringworm or infection. Treatment depends on the cause and may include clipping the area, medicated washes or wipes, and prescription medication if there's an infection, given exactly as your vet prescribes.
 
-## Common questions
+## Questions cat owners ask
 
 ### Is cat acne contagious?
 
@@ -91,10 +91,6 @@ It's best not to. Oils can clog follicles further, and your cat will lick it off
 ### What does infected cat acne look like?
 
 The chin becomes red, swollen and sore, and you may see pus, crusts or bleeding. Your cat may resist being touched there. Infected acne needs a vet visit.
-
-## The short version
-
-Cat acne shows up as blackheads on the chin. Switch to stainless steel or ceramic bowls, wash them daily, and gently wipe your cat's chin after meals. Never squeeze spots or use human acne products. Redness, swelling, pus, hair loss or no improvement after a few weeks all mean a trip to the vet.
 
 ## Sources
 

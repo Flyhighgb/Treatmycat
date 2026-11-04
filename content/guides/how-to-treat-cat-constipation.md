@@ -85,10 +85,6 @@ Dry food alone doesn't cause it, but cats on dry food take in much less water ov
 
 No, not without your vet's advice. Human laxatives and stool softeners aren't made for cats, some ingredients are harmful, and a cat that needs one may have an underlying problem that should be checked first. If your vet prescribes one, give it exactly as they say.
 
-## The short version
-
-Most constipation comes down to not enough water. Wet food is usually the fix. But straining with nothing coming out could be a urinary blockage, which is an emergency.
-
 ## Sources
 
 This guide is based on published guidance from:

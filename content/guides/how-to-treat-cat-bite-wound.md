@@ -69,7 +69,7 @@ Cat fights can spread serious viral infections, including **feline immunodeficie
 - **Keep vaccinations up to date**, including rabies and, for outdoor cats, FeLV.
 - **Check your cat over** when it comes home, especially if it's been gone longer than usual or seems out of sorts.
 
-## Common questions
+## Questions cat owners ask
 
 ### Will a cat bite heal on its own?
 

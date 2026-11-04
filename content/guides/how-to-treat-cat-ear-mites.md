@@ -9,7 +9,7 @@ reviewed: 2026-10-21
 image: photo-1771945018356-c457c725e61b
 imageAlt: A black and white cat scratching its ear
 ---
-Ear mites (*Otodectes cynotis*) are tiny parasites that live in the ear canal. They're very common in kittens, outdoor cats and newly adopted cats, and they spread easily between cats and dogs that live together. The good news is that modern treatments clear them quickly, often with a single dose.
+Ear mites (*Otodectes cynotis*) are tiny parasites that live in the ear canal. They're very common in kittens, outdoor cats and newly adopted cats, and they spread easily between cats and dogs that live together. Modern treatments clear them quickly, often with a single dose.
 
 ## Signs of ear mites
 
@@ -26,6 +26,15 @@ Ear mites pass by close contact: cats sleeping together, grooming each other, or
 ## Get it checked before you treat
 
 Ear mites look a lot like **ear infections** (bacterial or yeast) and **ear polyps**, which need different treatment. A vet can confirm mites in minutes by looking at a swab under a microscope. Treating the wrong problem wastes time and can make sore ears worse. Your vet will also check that the eardrum is intact, because some ear drops are unsafe if it isn't.
+
+<figure class="compare" aria-label="Ear mites compared with an ear infection">
+<p class="compare-title">Ear mites or ear infection?</p>
+<div class="compare-cols">
+<div class="compare-col"><p class="compare-head">Usually ear mites</p><ul><li>Dark brown or black, dry, crumbly wax, like coffee grounds</li><li>Kittens, outdoor cats or a newly adopted cat</li><li>Other pets in the home are scratching too</li><li>Intense scratching and head shaking</li></ul></div>
+<div class="compare-col alt"><p class="compare-head">Usually an ear infection</p><ul><li>Yellow, brown or greasy discharge, often smelly</li><li>Any age, often linked to allergies or a polyp</li><li>Usually only one pet is affected</li><li>A red, sore ear your cat won't let you touch</li></ul></div>
+</div>
+<figcaption>They overlap a lot, so let your vet check a swab under the microscope before you treat. A head tilt or loss of balance needs a vet the same day.</figcaption>
+</figure>
 
 ## How ear mites are treated
 

@@ -84,10 +84,6 @@ Some causes can spread to people, including ringworm and *Cheyletiella* mites. I
 
 It's the nickname for *Cheyletiella* mites, which look like large flakes that move. They are very contagious between pets and need treatment from your vet for every animal in the house.
 
-## The short version
-
-Mild dry skin usually improves with regular brushing, more water and wet food, a healthy weight and a complete diet. Itching, hair loss, sores, moving flakes or a cat that seems unwell all mean a trip to the vet.
-
 ## Sources
 
 This guide is based on published guidance from:

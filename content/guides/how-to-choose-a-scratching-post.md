@@ -89,10 +89,6 @@ When the surface is worn smooth or the post starts to wobble. Shredded sisal is 
 
 Start early. Give kittens a scratcher in every room they use, reward them every time they use one, and redirect them gently from furniture to a post. Habits formed in the first few months tend to last.
 
-## The short version
-
-Choose a tall, heavy sisal post (30 inches or more), put it right where your cat already scratches, and make it fun with play and treats. Have more than one. Never punish scratching, and don't declaw. For more ways to keep an indoor cat busy, see our guide to [the best toys for indoor cats](/guides/best-toys-for-indoor-cats/).
-
 ## Sources
 
 This guide is based on published guidance from:

@@ -17,6 +17,17 @@ Most litter box problems come down to the box, the litter or the location, not a
 
 **Easy to clean.** Smooth plastic with no tight corners is easiest to scoop and wash. Avoid liners if your cat's claws catch in them.
 
+<figure class="rules" aria-label="Litter box rules of thumb">
+<p class="compare-title">Litter box rules of thumb</p>
+<ul class="rules-grid">
+<li><strong>1.5×</strong><span>your cat's length, nose to base of tail, for the box</span></li>
+<li><strong>+1</strong><span>one more box than you have cats</span></li>
+<li><strong>2 in</strong><span>(5 cm) of unscented clumping litter</span></li>
+<li><strong>3–4 in</strong><span>(8–10 cm) entry height for kittens and seniors</span></li>
+<li><strong>Daily</strong><span>scooping, twice if you can</span></li>
+</ul>
+</figure>
+
 ## Types of litter box
 
 | Type | Best for | Good to know | Shop |
@@ -70,7 +81,7 @@ These are popular, widely recommended examples of each type, picked from well-kn
 
 If your cat suddenly stops using the litter box, **see your vet first**. Peeing or pooping outside the box is often a sign of a medical problem such as a urinary tract problem, constipation, arthritis or kidney disease. **A cat straining in the box with little or no urine is an emergency**, especially a male cat (see our guide to [urinary tract problems in cats](/guides/how-to-help-cat-urinary-tract-problem/)). Changes in the size or number of clumps, or in the stool, are also worth mentioning to your vet (see our guide to [constipation](/guides/how-to-treat-cat-constipation/)).
 
-## Common questions
+## Your questions answered
 
 ### How many litter boxes do I need?
 
@@ -87,10 +98,6 @@ Most cats prefer unscented, fine-grained clumping litter. Beyond that, it depend
 ### Why does my cat kick litter out of the box?
 
 Usually the box is too small or the sides too low. A larger, high-sided box with a low entry, and a litter mat outside, usually helps.
-
-## The short version
-
-Choose a big, open box with a low entry, fill it with unscented clumping litter, and have one more box than you have cats, in quiet, easy-to-reach places. Scoop daily. If your cat suddenly stops using the box, see your vet first.
 
 ## Sources
 

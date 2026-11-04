@@ -7,7 +7,7 @@ reviewed: 2026-10-28
 image: photo-1774813527273-0ee5a11da229
 imageAlt: A close-up of a tabby cat's face with green eyes
 ---
-A little clear tear staining is normal for some cats, especially flat-faced breeds like Persians. But a cat with goopy, red, swollen or squinting eyes usually has an eye infection or irritation that needs a vet's help. Eyes can get worse quickly, and some problems that look like a simple infection, such as an ulcer on the surface of the eye, can threaten your cat's sight. The good news is that most eye infections in cats clear up well with the right treatment.
+A little clear tear staining is normal for some cats, especially flat-faced breeds like Persians. But a cat with goopy, red, swollen or squinting eyes usually has an eye infection or irritation that needs a vet's help. Eyes can get worse quickly, and some problems that look like a simple infection, such as an ulcer on the surface of the eye, can threaten your cat's sight. Caught early, most eye infections in cats clear up well with the right treatment.
 
 ## Signs of an eye problem
 
