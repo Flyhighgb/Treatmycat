@@ -60,6 +60,8 @@ Bathing usually isn't needed, and frequent baths can dry the skin further. If yo
 
 Your vet may use a fine comb, sticky tape or skin scrapings to look for mites, a special light or culture to check for ringworm, and blood tests to look for illnesses that affect the coat.
 
+Head shaking and dark, crumbly ear wax alongside itchy skin can point to [ear mites](/guides/how-to-treat-cat-ear-mites/).
+
 ## Common questions
 
 ### Is cat dandruff normal?
@@ -81,10 +83,6 @@ Some causes can spread to people, including ringworm and *Cheyletiella* mites. I
 ### What is "walking dandruff"?
 
 It's the nickname for *Cheyletiella* mites, which look like large flakes that move. They are very contagious between pets and need treatment from your vet for every animal in the house.
-
-## The short version
-
-Mild dry skin usually improves with regular brushing, more water and wet food, a healthy weight and a complete diet. Itching, hair loss, sores, moving flakes or a cat that seems unwell all mean a trip to the vet.
 
 ## Sources
 

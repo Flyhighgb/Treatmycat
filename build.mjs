@@ -72,9 +72,10 @@ const callouts = html => html
   .replace(/(<h2 id="the-short-version">[\s\S]*?)(?=<h2|$)/, '<section class="summary">$1</section>\n')
   .replace(/(<h2 id="sources">[\s\S]*?)(?=<h2|$)/, '<section class="sources">$1</section>\n');
 
-// Questions under a "## Common questions" heading: each "### Question" plus the text after it.
+// Questions under a "## Common questions" heading (or one of the FAQ_HEADINGS variants): each "### Question" plus the text after it.
+const FAQ_HEADINGS = ['Common questions', 'Your questions answered', 'Questions cat owners ask'];
 function faqs(md) {
-  const section = md.match(/^## Common questions\n([\s\S]*?)(?=^## |(?![\s\S]))/m);
+  const section = md.match(new RegExp(`^## (?:${FAQ_HEADINGS.join('|')})\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, 'm'));
   if (!section) return [];
   return section[1].split(/^### /m).slice(1).map(block => {
     const [q, ...rest] = block.split('\n');
@@ -137,8 +138,8 @@ ${body}
   <div class="footer-grid">
     <div><a class="logo" href="/"><img src="/favicon.svg" alt="" width="32" height="32"> ${esc(config.name)}</a>
       <p>${esc(config.tagline)}</p></div>
-    <div><h2>Topics</h2><ul>${TOPICS.filter(t => usedNames.has(t.name)).map(t => `<li><a href="/topics/${t.slug}/">${esc(t.name)}</a></li>`).join('')}<li><a href="/best-cat-products/">Best cat products</a></li></ul></div>
-    <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li></ul></div>
+    <div><h2>Topics</h2><ul>${TOPICS.filter(t => usedNames.has(t.name)).map(t => `<li><a href="/topics/${t.slug}/">${esc(t.name)}</a></li>`).join('')}<li><a href="/best-cat-products/">Best cat products</a></li><li><a href="/cat-emergency-checklist/">Emergency checklist</a></li></ul></div>
+    <div><h2>About us</h2><ul><li><a href="/about/">About</a></li><li><a href="/about/#how-we-write-our-guides">How we write our guides</a></li><li><a href="/affiliate-disclosure/">Affiliate disclosure</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/terms/">Terms and medical disclaimer</a></li><li><a href="/contact/">Contact</a></li></ul></div>
   </div>
   <p class="footer-note">Information on this site is general guidance, not a substitute for a vet. If your cat is unwell, contact your vet. For a suspected poisoning, call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.</p>
   <p class="footer-note">© ${new Date().getFullYear()} ${esc(config.name)}. Photos from <a href="https://unsplash.com/?utm_source=treatmycat&amp;utm_medium=referral">Unsplash</a>.</p>
@@ -221,7 +222,7 @@ for (const g of guides) {
     { '@context': 'https://schema.org', '@type': 'Article', headline: g.title, description: g.description,
       image: share.startsWith('https://') ? share : `${config.url}${share}`, mainEntityOfPage: `${config.url}${path}`,
       datePublished: g.date, dateModified: lastmod[path],
-      author: { ...org, name: `${config.name} editorial team` }, publisher: org },
+      author: { '@type': 'Person', name: config.author, url: `${config.url}/about/#who-writes-treat-my-cat` }, publisher: org },
     crumbSchema([['Guides', '/guides/'], ...(topic ? [[topic.name, `/topics/${topic.slug}/`]] : []), [g.title, path]]),
   ];
   if (g.faq.length) schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
@@ -234,14 +235,14 @@ for (const g of guides) {
 <p class="crumbs"><a href="/guides/">Guides</a>${topic ? ` › <a href="/topics/${topic.slug}/">${esc(topic.name)}</a>` : g.category ? ` › ${esc(g.category)}` : ''}</p>
 <h1>${esc(g.title)}</h1>
 <p class="lead">${esc(g.description)}</p>
-<p class="meta"><span>By the ${esc(config.name)} editorial team</span><span>Last reviewed ${esc(longDate(reviewed))}</span><span>${g.minutes} min read</span></p>
+<p class="meta"><span>By <a href="/about/#who-writes-treat-my-cat">${esc(config.author)}</a></span><span>Last reviewed ${esc(longDate(reviewed))}</span><span>${g.minutes} min read</span></p>
 </div>
 ${g.image ? `<figure class="head-photo">${photo(g.image, g.imageAlt, { w: 720, h: 540, sizes: '(max-width: 760px) 100vw, 360px', eager: true })}</figure>`
   : `<span class="head-icon"><img src="${iconFor(g.category)}" alt="" width="140" height="140"></span>`}
 </div></header>
 <div class="wrap article-grid">
 <article class="post">
-${NO_VET_NOTE.includes(g.category) ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak.</div>`}
+${NO_VET_NOTE.includes(g.category) ? '' : `<div class="vet-note" role="note"><strong>See a vet right away</strong> if your cat stops eating for more than a day, is straining to pee, has trouble breathing, or seems very weak. <a href="/cat-emergency-checklist/">Full emergency checklist</a>.</div>`}
 ${g.affiliate ? disclosure : ''}
 ${g.toc.length > 2 ? `<details class="toc toc-inline"><summary>In this guide</summary><ol>${g.toc.map(h => `<li><a href="#${h.id}">${h.text}</a></li>`).join('')}</ol></details>` : ''}
 ${g.html}
@@ -304,7 +305,8 @@ ${heroArt}
 <section class="section"><div class="wrap"><h2>Find help by problem</h2><ul class="topics">${used.map(t => topicTile(t, guides.filter(g => g.category === t.name).length)).join('')}</ul></div></section>
 <section class="vet-band"><div class="wrap vet-band-grid">
 <div><p class="eyebrow">Don't wait</p><h2>When to call the vet straight away</h2>
-<p>Some problems can't wait for a guide. Call your vet or an emergency clinic now if your cat:</p></div>
+<p>Some problems can't wait for a guide. Call your vet or an emergency clinic now if your cat:</p>
+<p><a class="band-link" href="/cat-emergency-checklist/">See the full printable checklist →</a></p></div>
 <ul>
 <li>Is straining to pee and little or nothing comes out, especially a male cat</li>
 <li>Is breathing with an open mouth, or struggling to breathe</li>

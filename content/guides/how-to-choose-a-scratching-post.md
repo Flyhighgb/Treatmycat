@@ -69,6 +69,8 @@ Declawing is the surgical removal of the last bone of each toe. It can cause lon
 
 If your cat is suddenly scratching much more or much less than usual, or seems sore in its paws, see your vet. Pain, stress and arthritis can all change scratching habits.
 
+Many cat trees have scratching posts built in. See [the best cat trees for indoor cats](/guides/best-cat-trees-for-indoor-cats/) if you'd like both in one.
+
 ## Common questions
 
 ### Why does my cat ignore its scratching post?
@@ -86,10 +88,6 @@ When the surface is worn smooth or the post starts to wobble. Shredded sisal is 
 ### How do I stop my kitten scratching furniture?
 
 Start early. Give kittens a scratcher in every room they use, reward them every time they use one, and redirect them gently from furniture to a post. Habits formed in the first few months tend to last.
-
-## The short version
-
-Choose a tall, heavy sisal post (30 inches or more), put it right where your cat already scratches, and make it fun with play and treats. Have more than one. Never punish scratching, and don't declaw. For more ways to keep an indoor cat busy, see our guide to [the best toys for indoor cats](/guides/best-toys-for-indoor-cats/).
 
 ## Sources
 

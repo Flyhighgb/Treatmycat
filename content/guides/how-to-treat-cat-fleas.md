@@ -9,7 +9,7 @@ reviewed: 2026-10-09
 image: photo-1761376378502-a28a3d798497
 imageAlt: A calico cat scratching itself in the sun
 ---
-Fleas are the most common parasite in cats, including indoor cats. They hitch a ride in on people, other pets and visitors. The good news is that they're very treatable. The catch is that **the adult fleas you see on your cat are only about 5% of the problem**. The rest are eggs, larvae and pupae in your carpets, bedding and couch, so you need to treat your cat *and* your home.
+Fleas are the most common parasite in cats, including indoor cats. They hitch a ride in on people, other pets and visitors. They're very treatable, but that **the adult fleas you see on your cat are only about 5% of the problem**. The rest are eggs, larvae and pupae in your carpets, bedding and couch, so you need to treat your cat *and* your home.
 
 ## Signs your cat has fleas
 
@@ -66,6 +66,8 @@ Expect to see some fleas for **up to 6 to 8 weeks**. That's new fleas hatching f
 - Your cat is still very itchy once the fleas are gone. Some cats have a **flea allergy**, where a single bite sets off weeks of itching, and need extra treatment.
 
 If you see rice-like segments, your cat also needs a dewormer that covers tapeworm. Your vet can recommend one.
+
+Fleas can spread tapeworm, so read [worms in cats](/guides/how-to-treat-worms-in-cats/) as well. If your cat is still itchy and flaky once the fleas are gone, see our guide to [dry, flaky skin](/guides/how-to-treat-cat-dry-skin/).
 
 ## Common questions
 

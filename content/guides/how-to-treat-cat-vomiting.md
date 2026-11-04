@@ -79,7 +79,7 @@ If your cat regularly vomits right after eating, try smaller, more frequent meal
 
 Frequent vomiting is not normal for cats, even if it has been going on for years. Your vet may suggest blood tests, a diet trial or imaging to find the cause, and many causes are very treatable once found.
 
-## Common questions
+## Questions cat owners ask
 
 ### Why is my cat throwing up yellow liquid or foam?
 

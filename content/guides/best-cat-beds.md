@@ -78,7 +78,9 @@ Many cats like a few different sleeping spots and rotate between them through th
 - **Wash beds every week or two**, and more often during flea treatment (see our guide to [treating fleas](/guides/how-to-treat-cat-fleas/)).
 - **Watch for changes in sleep.** If your cat suddenly sleeps much more, hides away, stops jumping up to its usual spots, or seems restless, see your vet. These can be signs of pain, illness or stress.
 
-## Common questions
+Want somewhere to sleep that's also a lookout? See [the best cat trees for indoor cats](/guides/best-cat-trees-for-indoor-cats/), many of which have beds built in.
+
+## Your questions answered
 
 ### Do cats actually need a bed?
 
@@ -99,10 +101,6 @@ A thick, orthopedic or heated bed with a low entry, placed somewhere warm that d
 ### Should my cat sleep in my bed?
 
 That's a personal choice. Many cats love sleeping with their people. Keep your cat on regular flea and parasite prevention, and give it a bed of its own too, for when it wants its own space.
-
-## The short version
-
-Choose a warm, soft bed that matches how your cat sleeps, usually a donut or bolster bed, and put it somewhere quiet, warm and slightly raised. For seniors, go orthopedic or heated with a low entry. For more ways to make your home cat-friendly, see our guide to [the best cat trees for indoor cats](/guides/best-cat-trees-for-indoor-cats/).
 
 ## Sources
 

@@ -73,6 +73,8 @@ Take a fresh stool sample in a clean container if you can. It helps your vet tes
 - Keep milk, scraps and toxic plants away from your cat
 - Keep treats to no more than 10% of daily calories (see our guide to [healthy cat treats](/guides/healthy-cat-treats/))
 
+A clean, easy-to-reach box helps while your cat recovers. Our [litter box guide](/guides/how-to-choose-a-litter-box/) explains what cats prefer. Worms are a common cause in kittens, so see [worms in cats](/guides/how-to-treat-worms-in-cats/) too.
+
 ## Common questions
 
 ### How long does cat diarrhea usually last?

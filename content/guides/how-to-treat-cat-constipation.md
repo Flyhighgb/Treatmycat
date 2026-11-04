@@ -61,6 +61,8 @@ For a mild case in an otherwise well cat:
 
 Your vet can give safe laxatives, an enema under supervision, or fluids, and check for underlying causes like kidney disease or arthritis. Cats with repeated constipation often do well on a prescription diet and a daily stool softener chosen by the vet, at the dose they prescribe.
 
+A box your cat dislikes can make them hold it in. See [how to choose a litter box](/guides/how-to-choose-a-litter-box/) if you think that's part of the problem, and our guide to [cat vomiting](/guides/how-to-treat-cat-vomiting/) if your cat is also being sick.
+
 ## Common questions
 
 ### How long can a cat go without pooping?
@@ -82,10 +84,6 @@ Dry food alone doesn't cause it, but cats on dry food take in much less water ov
 ### Can I use a stool softener from the pharmacy?
 
 No, not without your vet's advice. Human laxatives and stool softeners aren't made for cats, some ingredients are harmful, and a cat that needs one may have an underlying problem that should be checked first. If your vet prescribes one, give it exactly as they say.
-
-## The short version
-
-Most constipation comes down to not enough water. Wet food is usually the fix. But straining with nothing coming out could be a urinary blockage, which is an emergency.
 
 ## Sources
 

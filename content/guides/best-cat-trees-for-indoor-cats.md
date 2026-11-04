@@ -92,10 +92,6 @@ Choose one with a wide, heavy base, place it against a wall or in a corner, and 
 
 Often, if the posts are tall and covered in sisal. But many cats also need a scratcher near the furniture they like to scratch. See our guide to [choosing a scratching post](/guides/how-to-choose-a-scratching-post/).
 
-## The short version
-
-Choose the most stable cat tree you can fit, with sisal posts and platforms big enough for your cat. Put it by a window in a room your family uses, anchor tall trees to the wall, and pick a lower tree with steps for older cats.
-
 ## Sources
 
 This guide is based on published guidance from:

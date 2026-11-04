@@ -9,7 +9,7 @@ reviewed: 2026-10-09
 image: photo-1604372974210-07d4d7d7d9a2
 imageAlt: An orange tabby cat playing with a ball
 ---
-Indoor cats need to hunt. Not real prey, but the chase, pounce and "kill" that a hunt gives them. Without it, many become bored, overweight or stressed, and some start scratching furniture, waking you at night or over-grooming. The right toys, used the right way, fix a lot of that. The good news is that the toys cats love most are usually cheap.
+Indoor cats need to hunt. Not real prey, but the chase, pounce and "kill" that a hunt gives them. Without it, many become bored, overweight or stressed, and some start scratching furniture, waking you at night or over-grooming. The right toys, used the right way, fix a lot of that. Happily, the toys cats love most tend to be the cheap ones.
 
 ## What makes a good cat toy
 
@@ -89,10 +89,6 @@ Yes. Play keeps older cats moving, helps their weight and keeps their minds acti
 ### My cat won't play with any toy. What should I do?
 
 Try playing at dawn or dusk, when cats are naturally most active, and try different prey styles: feathers in the air, mice on the floor, or a toy that disappears under a blanket. Keep sessions short. If your cat has stopped playing suddenly, see your vet to rule out pain or illness.
-
-## The short version
-
-A wand toy, a few cheap balls or mice, a kicker and a puzzle feeder cover most cats. Play two or three times a day, let your cat catch the "prey", and feed afterward. Keep string, ribbon and hair ties out of reach. Scratching furniture too? See our guide to [choosing a scratching post](/guides/how-to-choose-a-scratching-post/).
 
 ## Sources
 

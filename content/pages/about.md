@@ -4,6 +4,14 @@ description: Who writes Treat My Cat and how the guides are put together.
 ---
 Treat My Cat is a library of practical guides for the everyday problems cat owners run into: fleas, hairballs, upset stomachs, itchy skin, picky eating and more.
 
+## Who writes Treat My Cat
+
+Treat My Cat is written and kept up to date by Paul. Paul isn't a vet. Treat My Cat exists to give cat owners clear, calm answers to everyday problems, based on what veterinary organizations actually recommend rather than forum guesswork. Every guide lists its sources, and every guide tells you when it's time to stop reading and call your vet.
+
+Spotted a mistake or have a suggestion? [Get in touch](/contact/).
+
+## What every guide covers
+
 Every guide follows the same shape:
 
 - **What's likely going on**, in plain language.

@@ -7,7 +7,7 @@ reviewed: 2026-11-02
 image: photo-1764708844823-00d2188dafd8
 imageAlt: A fluffy cat sitting near a sunlit window
 ---
-Arthritis is very common in older cats, but it's easy to miss. Cats are experts at hiding pain, and they rarely limp. Instead, they quietly stop jumping up to their favorite spots, sleep more and groom less, and many owners put it down to "just getting old". Studies using X-rays suggest that most cats over 12 have some degree of joint disease. The good news is that arthritis is very treatable, and the right pain relief plus a few changes at home can make an older cat noticeably happier and more active.
+Arthritis is very common in older cats, but it's easy to miss. Cats are experts at hiding pain, and they rarely limp. Instead, they quietly stop jumping up to their favorite spots, sleep more and groom less, and many owners put it down to "just getting old". Studies using X-rays suggest that most cats over 12 have some degree of joint disease. Arthritis can't be cured, but it is very treatable, and the right pain relief plus a few changes at home can make an older cat noticeably happier and more active.
 
 ## Signs of arthritis in cats
 
@@ -73,7 +73,7 @@ Many owners are surprised by how much more active and affectionate their cat bec
 
 Senior cats should see the vet at least once or twice a year, so changes can be picked up early.
 
-## Common questions
+## Your questions answered
 
 ### How can I tell if my cat has arthritis?
 

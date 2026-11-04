@@ -9,7 +9,7 @@ reviewed: 2026-10-19
 image: photo-1725409796872-8b41e8eca929
 imageAlt: A white kitten being examined by a vet
 ---
-Worms are very common in cats, especially kittens, cats that hunt and cats with fleas. Many infected cats look perfectly healthy, so you often can't tell just by looking. The good news is that worms are easy to treat with the right product from your vet, and easy to prevent with regular parasite control. The key is to use a proper cat dewormer, not a home remedy, and to treat the cause (like fleas) so the worms don't come straight back.
+Worms are very common in cats, especially kittens, cats that hunt and cats with fleas. Many infected cats look perfectly healthy, so you often can't tell just by looking. Thankfully, worms are easy to treat with the right product from your vet, and easy to prevent with regular parasite control. The key is to use a proper cat dewormer, not a home remedy, and to treat the cause (like fleas) so the worms don't come straight back.
 
 ## The main types of worms in cats
 
