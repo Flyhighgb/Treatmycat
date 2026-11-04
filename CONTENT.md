@@ -54,7 +54,6 @@ Rules for buying guides:
 
 ## Topic backlog
 Write these next, roughly in order, and remove each from the list once published (buying guides go in the Toys and gear category):
-- How to treat a cat bite or scratch wound (on the cat)
 - Buying guide: how to choose a cat carrier for vet trips
 - How to help a stressed or anxious cat
 - How to get a picky cat to eat
