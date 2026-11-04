@@ -49,6 +49,20 @@ A cat tree gives indoor cats height, a view, a place to scratch and a safe spot 
 | Small or compact tree | Kittens and small spaces | [Amazon Basics Cat Condo](amazon:Amazon Basics cat condo tree tower hammock) [More small trees](amazon:small cat tree with condo) |
 | Low tree with steps | Senior and arthritic cats | [Senior cat trees](amazon:cat tree for senior cats with steps) |
 
+## Cat beds
+
+![A brown and gray tabby cat in a pet bed](unsplash:photo-1573682127988-f67136e7f12a)
+
+Most cats love a warm, soft bed with raised sides, somewhere quiet, warm and slightly raised. Seniors do best with an orthopedic or heated bed. Full guide: [the best cat beds](/guides/best-cat-beds/).
+
+| Type | Best for | Popular pick |
+|---|---|---|
+| Donut or calming bed | Cats that curl up, anxious cats | [Best Friends by Sheri Donut](amazon:Best Friends by Sheri Original Calming Donut Cat Bed) [More donut beds](amazon:calming donut cat bed) |
+| Bolster bed | Most cats | [Amazon Basics Bolster](amazon:Amazon Basics round bolster cat bed) [More bolster beds](amazon:bolster cat bed washable) |
+| Cave or hooded bed | Shy cats that like to hide | [Bedsure Cat Cave](amazon:Bedsure cat cave bed) [More cat caves](amazon:cat cave bed) |
+| Heated bed | Seniors, thin or arthritic cats | [K&H Thermo-Kitty](amazon:K&H Thermo-Kitty heated cat bed) [More heated beds](amazon:heated cat bed pet safe) |
+| Orthopedic bed | Senior and arthritic cats | [Orthopedic beds](amazon:orthopedic cat bed low entry) |
+
 ## Treats
 
 ![An orange cat eating a treat from a hand](unsplash:photo-1781120810307-e35a8dc5ca9e)
