@@ -56,7 +56,6 @@ Rules for buying guides:
 
 ## Topic backlog
 Write these next, roughly in order (the first ones fill the Behavior, Care and grooming, Food and treats and Health conditions topics, which have the fewest guides), and remove each from the list once published (buying guides go in the Toys and gear category):
-- How to help a stressed or anxious cat
 - How to give a cat a tablet
 - How to get a picky cat to eat
 - How to care for a cat with kidney disease
