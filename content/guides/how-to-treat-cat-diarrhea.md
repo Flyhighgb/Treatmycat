@@ -5,11 +5,11 @@ seoTitle: "How to stop cat diarrhea: home care and when to see a vet"
 seoDescription: "Why cats get diarrhea, what you can safely do at home for a mild case, what never to give, and the warning signs that mean a same-day vet visit."
 category: Digestion
 date: 2026-10-09
-reviewed: 2026-10-09
+reviewed: 2026-11-11
 image: photo-1727510153658-643787acb16a
 imageAlt: A cat sitting in a litter box
 ---
-Most short bouts of diarrhea in adult cats clear up on their own within a day or two. Your job is to keep your cat hydrated, keep things gentle, and watch for the signs that it's more serious. Kittens, senior cats and cats with other health problems are the exception: they can go downhill quickly, so call your vet early.
+A short bout of diarrhea in an otherwise healthy adult cat usually clears up on its own within a day or two. While it does, keep your cat drinking, feed small gentle meals, and watch for the signs that it's more serious. Kittens, senior cats and cats with other health problems are the exception: they can go downhill quickly, so call your vet early.
 
 ## What counts as diarrhea?
 
@@ -18,8 +18,8 @@ Healthy cat poop is brown, formed and firm enough to pick up. Diarrhea is stool 
 ## Common causes
 
 - **A sudden change of food**, or eating something new like a treat, table scraps or prey
-- **Milk.** Most adult cats are lactose intolerant.
-- **Stress**, from moving, a new pet, construction work or a vet trip
+- **Milk.** Many adult cats can't digest lactose well.
+- **Stress**, from moving, a new pet, construction work or a vet trip (see [how to help a stressed cat](/guides/how-to-help-stressed-anxious-cat/))
 - **Parasites** such as roundworms, giardia or coccidia, especially in kittens
 - **Infections**, viral or bacterial
 - **Longer-term conditions**, including food sensitivity, inflammatory bowel disease and hyperthyroidism, if it keeps coming back
@@ -33,7 +33,16 @@ Healthy cat poop is brown, formed and firm enough to pick up. Diarrhea is stool 
 - Your cat is also **vomiting**, isn't eating, or seems weak, wobbly or hiding
 - The diarrhea is very watery and frequent
 - You think your cat may have eaten something toxic, such as lilies, medicines or cleaning products
-- Their gums are pale, dry or tacky
+- Its gums are pale, dry or tacky
+
+<figure class="compare" aria-label="Watch at home or call the vet">
+<p class="compare-title">Watch at home, or call the vet?</p>
+<div class="compare-cols">
+<div class="compare-col"><p class="compare-head">Usually OK to watch for 48 hours</p><ul><li>Adult cat, otherwise healthy</li><li>Still eating, drinking and playing</li><li>Soft stools, no blood</li><li>An obvious trigger, like a new food or treat</li></ul></div>
+<div class="compare-col alt"><p class="compare-head">Call your vet today</p><ul><li>Kitten, senior or a cat with a health condition</li><li>Blood, black stools or lots of mucus</li><li>Vomiting, not eating, weak or hiding</li><li>Very watery, frequent stools or dry, tacky gums</li></ul></div>
+</div>
+<figcaption>Anything that hasn't settled after 48 hours, keeps coming back or comes with weight loss needs a vet visit too.</figcaption>
+</figure>
 
 ## How to check for dehydration
 
@@ -71,9 +80,9 @@ Take a fresh stool sample in a clean container if you can. It helps your vet tes
 - Change foods gradually over 7 to 10 days
 - Deworm regularly, as your vet recommends
 - Keep milk, scraps and toxic plants away from your cat
-- Keep treats to no more than 10% of daily calories (see our guide to [healthy cat treats](/guides/healthy-cat-treats/))
+- Keep treats to no more than 10% of daily calories
 
-A clean, easy-to-reach box helps while your cat recovers. Our [litter box guide](/guides/how-to-choose-a-litter-box/) explains what cats prefer. Worms are a common cause in kittens, so see [worms in cats](/guides/how-to-treat-worms-in-cats/) too.
+Worms are a common cause in kittens, so see [worms in cats](/guides/how-to-treat-worms-in-cats/) too.
 
 ## Common questions
 
@@ -84,6 +93,10 @@ A mild bout from a food change or stress usually settles within 24 to 48 hours. 
 ### Can I give my cat rice for diarrhea?
 
 Cats are carnivores and don't need rice. A vet gastrointestinal diet or plain boiled chicken is a better short-term option. Small amounts of plain white rice aren't harmful, but they don't add much.
+
+### Can stress give my cat diarrhea?
+
+Yes. A move, a new pet or a stay in a boarding cattery can upset a cat's gut for a day or two. If it keeps happening around stressful events, mention it to your vet and look at ways to make home feel calmer.
 
 ### Is diarrhea in kittens more serious?
 
