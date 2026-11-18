@@ -5,11 +5,11 @@ seoTitle: "How to get rid of fleas on your cat and in your home"
 seoDescription: "The fastest safe ways to kill fleas on a cat, why dog flea products can be deadly, and the simple home cleaning routine that stops fleas coming back."
 category: Skin and parasites
 date: 2026-10-09
-reviewed: 2026-10-09
+reviewed: 2026-11-18
 image: photo-1761376378502-a28a3d798497
 imageAlt: A calico cat scratching itself in the sun
 ---
-Fleas are the most common parasite in cats, including indoor cats. They hitch a ride in on people, other pets and visitors. They're very treatable, but that **the adult fleas you see on your cat are only about 5% of the problem**. The rest are eggs, larvae and pupae in your carpets, bedding and couch, so you need to treat your cat *and* your home.
+Fleas are the most common external parasite in cats, and indoor cats get them too, because fleas hitch a ride in on people, other pets and visitors. They're very treatable. The catch is that **the adult fleas you see on your cat are only about 5% of the problem**. The rest are eggs, larvae and pupae in your carpets, bedding and couch, so you need to treat your cat *and* your home.
 
 ## Signs your cat has fleas
 
@@ -32,18 +32,27 @@ Use a **licensed flea treatment made for cats**, at the dose on the label for yo
 | Oral tablet or chew | Kills fleas that bite within hours | Handy if spot-ons irritate your cat. Some last 1 to 3 months. |
 | Long-acting collar | Slowly releases treatment for several months | Choose one with a quick-release safety catch. |
 
-Prescription products from your vet usually work better than older over-the-counter ones, because fleas in many areas have become resistant to some older ingredients. If you've used a product correctly and still see live fleas after a few weeks, ask your vet about switching.
+Newer products, many of them from your vet, tend to work better than some older over-the-counter ingredients, which fleas in some areas no longer respond to well. If you've used a product correctly and still see live fleas after a few weeks, ask your vet about switching.
 
 Treat **every cat and dog in the house** at the same time, or the fleas simply move to the untreated animal. Weigh your cat before buying a product, since doses are set by weight band.
 
 ## Step 2: treat your home
 
-Most of the flea population lives in your home, not on the cat.
-
 1. **Vacuum daily for two weeks**: carpets, rugs, couches, under furniture and along baseboards. The vibration also makes pupae hatch, so the treatment can kill them. Empty the vacuum into an outdoor trash can each time.
 2. **Wash bedding** (the cat's, and anywhere it sleeps, including your bed) on a hot cycle, 140°F (60°C) if the fabric allows, and dry on high heat.
 3. **Use a household flea spray** containing an insect growth regulator (such as methoprene or pyriproxyfen), which stops eggs and larvae developing ([see household flea sprays](amazon:household flea spray insect growth regulator)). Check the label says it's for use in homes with cats. Keep cats and fish out of the room until it's dry, and follow the label.
 4. **Don't forget the car** and any pet carriers if your cat travels.
+
+<figure class="rules" aria-label="Flea treatment rules of thumb">
+<p class="compare-title">Flea treatment rules of thumb</p>
+<ul class="rules-grid">
+<li><strong>Every pet</strong><span>treated on the same day, each with a product for its own species</span></li>
+<li><strong>Cats only</strong><span>never use a dog product on a cat</span></li>
+<li><strong>Daily</strong><span>vacuuming for two weeks</span></li>
+<li><strong>140°F</strong><span>(60°C) wash for bedding, if the fabric allows</span></li>
+<li><strong>8 weeks</strong><span>of treatment before you judge whether it worked</span></li>
+</ul>
+</figure>
 
 ## Step 3: be patient and keep going
 
@@ -51,11 +60,11 @@ Expect to see some fleas for **up to 6 to 8 weeks**. That's new fleas hatching f
 
 ## Never use these on a cat
 
-- **Dog flea products.** Many contain **permethrin**, which is highly toxic to cats and can cause tremors, seizures and death, even from close contact with a freshly treated dog. If this happens, call your vet or an emergency clinic right away.
+- **Dog flea products.** Many contain **permethrin**, which is highly toxic to cats and can cause tremors, seizures and death, even from close contact with a freshly treated dog. If this happens, call your vet or an emergency clinic right away, or the ASPCA Animal Poison Control Center on (888) 426-4435.
 - **Essential oils** (tea tree, eucalyptus, citrus, peppermint). Cats can't process them properly and they can cause poisoning.
 - **Garlic, vinegar sprays or "natural" home remedies.** They don't work and some are harmful.
 - **Flea treatments on kittens** unless the label says they're safe for that age and weight.
-- **Flea shampoos as the only treatment.** They kill the fleas on your cat that day but give no lasting protection, and most cats hate being bathed.
+- **Flea shampoos as the only treatment.** They kill the fleas on your cat that day but give no lasting protection, and many cats find baths very stressful.
 
 ## When to see a vet
 
@@ -74,6 +83,10 @@ Fleas can spread tapeworm, so read [worms in cats](/guides/how-to-treat-worms-in
 ### Can indoor cats get fleas?
 
 Yes. Fleas and their eggs come in on clothes, shoes and other pets, and once inside they breed happily in carpet and furniture. Indoor cats in homes with dogs, or in apartment buildings with other pets, are especially likely to pick them up.
+
+### Can I use my dog's flea treatment on my cat?
+
+No. Many dog flea products contain permethrin, which can kill cats. Only use products labeled for cats, at the dose for your cat's weight, and keep cats away from a freshly treated dog until the product has dried.
 
 ### Can cat fleas live on humans?
 
@@ -99,3 +112,4 @@ This guide is based on published guidance from:
 - [Cornell Feline Health Center](https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center)
 - [International Cat Care](https://icatcare.org)
 - [Merck Veterinary Manual](https://www.merckvetmanual.com)
+- [ASPCA Animal Poison Control](https://www.aspca.org/pet-care/animal-poison-control)
